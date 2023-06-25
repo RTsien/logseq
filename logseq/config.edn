@@ -415,4 +415,6 @@
  :graph/settings {:journal? false, :builtin-pages? false}
  :ui/show-brackets? true
  :editor/logical-outdenting? false
- :editor/preferred-pasting-file? true}
+ :editor/preferred-pasting-file? true
+ :feature/enable-flashcards? false
+ :feature/enable-whiteboards? false}
