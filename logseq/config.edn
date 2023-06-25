@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -413,6 +413,6 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :graph/settings {:journal? false, :builtin-pages? false}
- :ui/show-brackets? false
+ :ui/show-brackets? true
  :editor/logical-outdenting? false
  :editor/preferred-pasting-file? true}

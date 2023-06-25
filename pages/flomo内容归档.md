@@ -19,13 +19,7 @@
 		- 助记符
 		- 大声念出来
 		- 奖励机制
-- 【Java面试】[[redis]]基础题：请你说说[[redis主从复制]]的原理？-哔哩哔哩】 [b23.tv](https://b23.tv/3NYaRYm)
-  全量同步和增量同步：
-  全量同步，slave初始阶段，slave主动发起
-  增量同步，master数据发生变化的时候，master和slave都维护自己的offset。
-  ![image.png](../assets/image_1687448097225_0.png){:height 247, :width 530} 
-  
-   一主多从的时候offset如何实现的？ #TODO
+- id:: 6494671b-60ef-4856-8b11-c10196bf75e9
 - [如何在六个月学会任何一门语言？](https://dict.eudic.net/webting/Play?id=d8d8d9ee-8efb-11e8-b55b-000c29ffef9b&order=0&ua=%2Feusoft_ting_en_iphone%2F9.7.0%2F35E73269-3F60-4860-956C-23565895C4B6_mac_02%3A00%3A00%3A00%3A00%3A00%2F) #学习方法 #英语
   id:: 64946cd6-7fc4-40c3-9689-2da71f2c832c
 	- Attention, meaning, relevance and memory.
@@ -142,9 +136,9 @@
   card-last-score:: 3
   id:: 649490da-6421-4983-8545-bf8b15c52137
 	- 跳单表与订单不同库
-	- 默认库写失败，写跳单库，并在跳单库写跳单表
-	- 读和更新，先去跳单库读跳单表，确定读写哪个库。如果跳单库异常，读和更新不可用
-	- 保证写高可用。读写高可用同时受默认库和跳单库影响。
+	- 新增订单：默认库写失败，写跳单库，并在跳单库写跳单表
+	- 历史订单：读和更新，先去跳单库读跳单表，确定读写哪个库。如果跳单库异常，读和更新不可用
+	- 保证新订单高可用。历史订单高可用同时受默认库和跳单库影响。
 - 为什么[[mysql]]使用[[B+树]]而不是二叉树？ #card
   card-last-interval:: 4
   card-repeats:: 1
@@ -240,5 +234,6 @@
 - to admit that one is wrong, usually when doing so triggers great embarrassment or shame #英语
 	- “承认自己之前说错了/做错了，（尤其是承认自己错了会带来极大的尴尬、羞辱感的时候）”；
 - 认真学习在线文章，还是要有思维导图，能系统化的记忆，有图形的骨架在那里，会比看完不做[[笔记]]，深刻很多。而且用[[思维导图]]很容易做类比，加入自己的理解。
-- 今天晚上听了 暖心小孩的课，关键词还是：培养自信，拆解目标，降低难度，夸得细节，时刻表达爱。[[儿童教育]]
-	- [mooc.oa.com](http://mooc.oa.com/my/course/1138)
+  id:: 649498e0-44a7-4c60-b6ab-720553a69432
+	-
+- 今天晚上听了 暖心小孩的课，关键词还是：培养自信，拆解目标，降低难度，夸得细节，时刻表达爱。[mooc.oa.com](http://mooc.oa.com/my/course/1138) #家庭 #儿童教育
