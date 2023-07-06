@@ -1,0 +1,4 @@
+- remove-k-digits #leetcode #贪心 #单调栈
+- https://leetcode.cn/problems/remove-k-digits/solutions/484940/yi-diao-kwei-shu-zi-by-leetcode-solution/
+- 完成题解，记入anki #TODO
+-
