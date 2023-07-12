@@ -14,5 +14,6 @@
   		 how and when writes become visible
   	扩展阅读
   		[[Overview of Consistency Levels in Database Systems]]
-  The basic problem is that historically, as we described above, **consistency levels are only designed for single-operation actions**. 
+  [[The basic problem is that historically, as we described above, consistency levels are only designed for single-operation actions]]. 
   	consistency levels最初是在哪篇文章被提出的，当时是否的确是这样
+-
