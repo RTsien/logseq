@@ -4,7 +4,7 @@
 	- 先学会如何学习，再研究如何[[培养习惯]]。
 	- 习惯的养成需要掌控[[多巴胺]]，而学习获得的成就感就是掌控多巴胺的重要武器。
 	- 越学越有心得，越学越想学，习惯自然就养成了。
-- [[多巴胺]]会降低记忆力？#学习方法
+- [[多巴胺会降低记忆力？]] #学习方法 #多巴胺 #记忆力
 	- 原文 [Asap Science 双语精读丨每天都在学还是觉得效率低？如何学习得更快](https://dict.eudic.net/webting/videoplay/46f95040-f949-11ed-80ea-005056866eda?ua=/eusoft_ting_en_iphone/9.7.0/35E73269-3F60-4860-956C-23565895C4B6_mac_02:00:00:00:00:00/)
 	- This finding highlights how reward motivation promotes memory formation, via the release of **fewer** neurotransmitter dopamine in the hippocampus prior to learning. 感觉这句话应该是错的，应该是更多的多巴胺分泌促进了记忆。
 	  id:: 6493e8c0-22bb-4a1d-b995-7d15562d4ef6
@@ -19,8 +19,7 @@
 		- 助记符
 		- 大声念出来
 		- 奖励机制
-- id:: 6494671b-60ef-4856-8b11-c10196bf75e9
-- [如何在六个月学会任何一门语言？](https://dict.eudic.net/webting/Play?id=d8d8d9ee-8efb-11e8-b55b-000c29ffef9b&order=0&ua=%2Feusoft_ting_en_iphone%2F9.7.0%2F35E73269-3F60-4860-956C-23565895C4B6_mac_02%3A00%3A00%3A00%3A00%3A00%2F) #学习方法 #英语 #语言学习
+- [[如何在六个月学会任何一门语言？]] #学习方法 #英语 #语言学习
   id:: 64946cd6-7fc4-40c3-9689-2da71f2c832c
 	- Attention, meaning, relevance and memory.
 	- principles
@@ -50,7 +49,7 @@
 		  logseq.order-list-type:: number
 		- Well most people learning a second language sort of take the mother tongue words and the target words and go over them again and again in their mind to try and remember them. Really inefficient. What you need to do is realise that everything you know is an image inside your mind, it's feelings. So I call it " one same box, different path" . You come out of that pathway and you build it over time, you become more and more skilled at just connecting the new sounds to those images that you already have, into that internal representation. [[将声音与画面在内心建立关联，而不是英语单词与汉语单词]]
 		  logseq.order-list-type:: number
-- 快慢指针的作用
+- [[快慢指针]]的作用
 	- 把不需要的值去掉，需要的值通过慢指针紧密排列 #算法
 - 那如何做好应试呢？这也是我在寻找的答案，我现在可以做的就是以[[如何高效刷算法题]]为研究对象，通过自身实践寻找高效的应试方法。#个人思考 #应试学习法
 - 问面试官问题：问招聘期望的岗位所在团队规模，业务阶段，和入职之后首要解决的问题。如果还能问，就问一下对面试比较好的点和需要进步的地方。 #面试经验
@@ -101,7 +100,8 @@
 - 深度优先像是一个人走迷宫，广度优先像是一组人朝不同方向走迷宫。广度优先适合最短路径问题。#算法 #算法4
 - [[卡片盒笔记]]和[[思维导图]]，都是尽量不设边界 #方法 #个人思考
 	- [[卡片盒不设内容边界，不对内容强行分类]]
-	- [[思维导图不对结构设定边界，随时都能根据金字塔思维的不同思维方式，方便地调整结构，建立关联]]
+	- [[思维导图不对结构设定边界，随时都能根据金字塔思维的不同思维方式，方便地调整结构，建立关联]]，当然这也是相对的：
+	  {{embed ((64a79dc9-99ca-4ca4-a079-237bbf0645ff))}}
 - 回溯算法，相当于全排列多叉树，深度优先遍历+剪枝 #backtrack #算法 #labuladong
 - 早起做了一个topcode里pdd的[[leetcode]]题，早晨大脑比较耐心一些，不过看到第二道题的时候就完全没有耐心了。一天只做一道题就好，贵精不在多。特别要注意的是套路知识和具体题目反复交叉验证，增强知识网络连接。#方法
 - 送礼不是越贵越好（原因：价格没有上限）。
@@ -127,14 +127,14 @@
 	- 实现 接收->反馈->强化 的循环，类似机器学习的神经网络训练
 	- 相信大脑的泛化和推理能力（大脑会借助已有知识或者忘掉一部分知识，防止过拟合，建立错综复杂的内容连接网）
 - 一到关键时机就熬夜，这个应该是压力导致的，越是有压力越是要放松。听歌，运动，早睡。先做好一两个事再说。 #熬夜 #早睡 #放松
-- [[pay receipt]]如何[[跳单]] #云支付 #高可用 #项目经验 #card
-  card-last-interval:: 4
-  card-repeats:: 1
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2023-06-28T03:04:46.450Z
-  card-last-reviewed:: 2023-06-24T03:04:46.451Z
+- [[pay receipt如何跳单]] #云支付 #高可用 #项目经验 #card
   card-last-score:: 3
+  card-repeats:: 1
+  card-next-schedule:: 2023-06-28T03:04:46.450Z
+  card-last-interval:: 4
   id:: 649490da-6421-4983-8545-bf8b15c52137
+  card-ease-factor:: 2.36
+  card-last-reviewed:: 2023-06-24T03:04:46.451Z
 	- 跳单表与订单不同库
 	- 新增订单：默认库写失败，写跳单库，并在跳单库写跳单表
 	- 历史订单：读和更新，先去跳单库读跳单表，确定读写哪个库。如果跳单库异常，读和更新不可用
