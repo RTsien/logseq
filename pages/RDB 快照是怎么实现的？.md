@@ -1,0 +1,2 @@
+- #RDB #redis #持久化
+- [src](https://xiaolincoding.com/redis/storage/rdb.html)

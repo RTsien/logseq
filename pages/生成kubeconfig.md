@@ -1,0 +1,1 @@
+- #kubeconfig #k8s

@@ -1,2 +1,2 @@
 - #leetcode #双指针 #动态规划
-- https://leetcode.cn/problems/is-subsequence/description/
+- [判断子序列](https://leetcode.cn/problems/is-subsequence/)
