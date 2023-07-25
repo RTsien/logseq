@@ -1,0 +1,2 @@
+- #leetcode #洗牌算法 #Fisher-Yates
+- [384. 打乱数组](https://leetcode.cn/problems/shuffle-an-array/)
