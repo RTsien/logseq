@@ -1,6 +1,6 @@
-- #redis
+- #redis #redis主从复制
 - abbreviation for **partial resynchronizations**
-- psync参数与返回 #card
+- redis psync参数与返回 #card
   id:: 6497f9c1-a81c-41a0-b0f7-50dd31d0d8e5
   card-last-interval:: 4
   card-repeats:: 1
