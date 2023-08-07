@@ -1,0 +1,4 @@
+/* Wrap the content inside code blocks in all themes */
+pre, code {
+  white-space : pre-wrap !important;
+}

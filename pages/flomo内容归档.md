@@ -1,16 +1,15 @@
+exclude-from-graph-view:: true
+
 - [[Zettelkasten本质上是一种渐进式总结方法]] [ref](https://blog.jimmylv.info/2020-06-03-zettelkasten-in-action/) #卡片盒笔记 #学习方法
+	- Literature Notes 是 a) 简短地 b) 用自己的话（而非“复制粘贴”）记录你在看的文献笔记，迫使你真正理解原文的意思。
+	- Reference Notes 则需要你添加参考信息，将上面的 Literature Notes 跟原文联系起来。而这一步，恰恰是 Roam 或 Obsidian 工具发挥价值最大的地方，甚至做到了完全自动化。（稍后会进一步解释我的工作流。
+	- Permanent Notes 是最重要的一步，回顾每一个卡片笔记，同时思考它们与你所学的内容、你的兴趣、思考或研究的关系。你的目标不是收集尽可能多的笔记，而是为你现有的想法、论点和讨论增加新的价值。
 - 在重点知识的反复重复与关联中能不断挖掘出新东西，不断的强化基础太重要了 #灵感 #学习方法
 - 通过不断增强的成就感，来激发学习的惯性 #学习方法
 	- 先学会如何学习，再研究如何[[培养习惯]]。
 	- 习惯的养成需要掌控[[多巴胺]]，而学习获得的成就感就是掌控多巴胺的重要武器。
 	- 越学越有心得，越学越想学，习惯自然就养成了。
-- [[多巴胺会降低记忆力？]] #学习方法 #多巴胺 #记忆力
-	- 原文 [Asap Science 双语精读丨每天都在学还是觉得效率低？如何学习得更快](https://dict.eudic.net/webting/videoplay/46f95040-f949-11ed-80ea-005056866eda?ua=/eusoft_ting_en_iphone/9.7.0/35E73269-3F60-4860-956C-23565895C4B6_mac_02:00:00:00:00:00/)
-	- This finding highlights how reward motivation promotes memory formation, via the release of **fewer** neurotransmitter dopamine in the hippocampus prior to learning. 感觉这句话应该是错的，应该是更多的多巴胺分泌促进了记忆。
-	  id:: 6493e8c0-22bb-4a1d-b995-7d15562d4ef6
-	- 最终找到了原版youtube视频，看了一下其实是feel-good，并不是fewer
-		- {{video https://youtu.be/B9SptdjpJBQ?t=198}}
-		- {{youtube-timestamp 200}}
+- 原文 [Asap Science 双语精读丨每天都在学还是觉得效率低？如何学习得更快](https://dict.eudic.net/webting/videoplay/46f95040-f949-11ed-80ea-005056866eda?ua=/eusoft_ting_en_iphone/9.7.0/35E73269-3F60-4860-956C-23565895C4B6_mac_02:00:00:00:00:00/)
 	- [[卡片盒笔记]]和[[艾宾浩斯]]([[anki]])仍然是主线
 	- 辅助：
 		- 保持水份，保证睡眠，多运动
@@ -19,6 +18,13 @@
 		- 助记符
 		- 大声念出来
 		- 奖励机制
+	- [[多巴胺会降低记忆力？]]
+		- This finding highlights how reward motivation promotes memory formation, via the release of **fewer** neurotransmitter dopamine in the hippocampus prior to learning. 感觉这句话应该是错的，应该是更多的多巴胺分泌促进了记忆。
+		  id:: 6493e8c0-22bb-4a1d-b995-7d15562d4ef6
+		- 最终找到了原版youtube视频，看了一下其实是feel-good，并不是fewer。翻译过来就是“这一发现凸显了奖励动机是如何通过在学习前在[[海马体]]释放感觉良好的神经递质多巴胺来促进记忆形成的。”
+		  id:: 64ccc884-766b-4c51-ab11-a3411faa0282
+			- {{video https://youtu.be/B9SptdjpJBQ?t=198}}
+			- {{youtube-timestamp 200}}
 - [[如何在六个月学会任何一门语言？]] #学习方法 #英语 #语言学习
   id:: 64946cd6-7fc4-40c3-9689-2da71f2c832c
 	- Attention, meaning, relevance and memory.
@@ -76,7 +82,7 @@
 	- [[解决与人的关系要回到中国儒学]]
 	- [[解决与自己的关系要用印度哲学]]
 - [【【Java面试】尴尬，七年经验闻所未闻，简述Mysql的二阶段提交原理？|Mic聊架构-哔哩哔哩】](https://b23.tv/BnM2Q0q)
-	- #redolog #binlog #mysql #二阶段提交 #TODO 做一下笔记
+	- #[[redo log]] #binlog #mysql #二阶段提交 #TODO 做一下笔记
 - 小学，初中，知识点少，不看笔记，单纯靠脑力记忆就能基本完成学习任务。知识量少，就有机会通过做一定量的习题形成长久记忆，考个好分数。
   到了高中，单纯的记忆，而且往往是短时记忆，无法保证让自己对知识的理解持续堆叠。而且知识量大，如果单纯靠做题来形成长期记忆，需要的题量也更大，陷入题海战术精疲力尽。
   记忆往往是模糊的，断层的，面对稍有生疏的旧知识，估计短时间内靠脑力只能重新把之前做过的推导和总结重走一遍，这就是原地踏步，边学边忘，知识理解始终处于低级阶段，无法应对更复杂的问题。如果有了好的笔记输出，即使记忆模糊，也能快速回顾笔记，在之前精妙的理解上继续积累更高级的知识理解，这样能够规避题海战术。 #个人思考 #学习方法 #应试学习法
@@ -157,7 +163,7 @@
 - 《[[卡片盒写作法]]》不要想着跳过当前通用的方法，执着于直接研究最新最酷的方法。判断新方法是否真的有效，需要对通用方法的熟练掌握，才能判断出哪些是真的方法，哪些是假的方法。#卡片盒笔记
 - 笔记驱动，而不是博客驱动。自我命题的博客，带来的是紧张的时间，匆忙的阅读和拷贝，知识孤立，写后就忘。 #知识管理 ((64948909-925c-4bb0-9abb-e21435ff7b70))
 - [km.woa.com](https://km.woa.com/group/47322/articles/show/488472?kmref=vkm_push)
-  [[度量]]需要根据不同视角进行分层，管理层、研发工程师、改进人员关注的指标存在差异。#软件工程
+  度量需要根据不同视角进行分层，管理层、研发工程师、改进人员关注的指标存在差异。#软件工程
 	- 面向管理人员：需要快速发现异常并找到原因。
 	- 面向开发人员：需要具备任务处理过程中的偏差展示与提醒。
 	- 面向改进人员：需要关联影响因素分析，找到最关键的改进点。

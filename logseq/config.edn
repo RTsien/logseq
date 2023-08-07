@@ -50,7 +50,7 @@
 
  ;; Automatically expand block references when zooming in.
  ;; Default value: true
- :ui/auto-expand-block-refs? true
+ :ui/auto-expand-block-refs? false
 
  ;; Enable Block timestamps.
  ;; Default value: false
@@ -412,7 +412,9 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :graph/settings {:journal? false, :builtin-pages? false}
+ :graph/settings {:journal? false, :builtin-pages? false, :excluded-pages? false, :orphan-pages? true}
+ :ui/show-brackets? true
+ :editor/logical-outdenting? false
  :editor/preferred-pasting-file? true
  :feature/enable-whiteboards? false
  :feature/enable-flashcards? false}

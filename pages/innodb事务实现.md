@@ -1,0 +1,1 @@
+- #innodb #事务 #ACID #[[undo log]] #2PC #2PL #[[redo log]]

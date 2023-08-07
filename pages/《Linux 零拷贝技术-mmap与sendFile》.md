@@ -18,7 +18,7 @@
 - ### 使用[[sendfile]]方式
 	- 优点：可以利用DMA方式，消耗CPU资源少，大块文件传输效率高，无内存安全新问题
 	  缺点：**小块文件效率低于mmap方式，只能是BIO方式传输，不能使用NIO**
-		- #TODO #🌟 有必要再认真求证一下，这是不是对的。为什么sendfile小文件效率就会比mmap低？
+		- #TODO 🌟 有必要再认真求证一下，这是不是对的。为什么sendfile小文件效率就会比mmap低？
 		  id:: 64ace2b1-3cb7-4d1b-a7b4-91ce9fd5408a
 - rocketMQ 在消费消息时，使用了 mmap，因为小块数据传输比sendFile好。kafka 使用了 sendFile。
 	- 这里应该是个谬误，rocketmq使用mmap的真实原因是从磁盘读取数据后需要在用户态修改数据再发送出去 
