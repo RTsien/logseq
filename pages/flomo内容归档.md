@@ -25,7 +25,7 @@ exclude-from-graph-view:: true
 		  id:: 64ccc884-766b-4c51-ab11-a3411faa0282
 			- {{video https://youtu.be/B9SptdjpJBQ?t=198}}
 			- {{youtube-timestamp 200}}
-- [[如何在六个月学会任何一门语言？]] #学习方法 #英语 #语言学习
+- [[如何在六个月学会任何一门语言？]] #学习方法 #外语学习
   id:: 64946cd6-7fc4-40c3-9689-2da71f2c832c
 	- Attention, meaning, relevance and memory.
 	- principles
@@ -129,7 +129,7 @@ exclude-from-graph-view:: true
   在这个社会中，越利他，自己的路就越不会垮，背后的目的在于给予别人一些需要的东西。
   别人的痛苦也是我们的痛苦，国家危难、匹夫有责。
 - 回顾对书的划线，也要同时回顾一下上下文，这样才能用自己的语言转换成有效的文献笔记 #卡片盒笔记
-- 还是听每日英语听力更舒服，短小的音频，先精听，再看文本，再精听 #英语 #学习方法
+- 还是听每日英语听力更舒服，短小的音频，先精听，再看文本，再精听 #外语学习 #学习方法
 	- 实现 接收->反馈->强化 的循环，类似机器学习的神经网络训练
 	- 相信大脑的泛化和推理能力（大脑会借助已有知识或者忘掉一部分知识，防止过拟合，建立错综复杂的内容连接网）
 - 一到关键时机就熬夜，这个应该是压力导致的，越是有压力越是要放松。听歌，运动，早睡。先做好一两个事再说。 #熬夜 #早睡 #放松
@@ -183,7 +183,7 @@ exclude-from-graph-view:: true
 	- 4)减少函数调用开销
 	- 5)减少分支
 	- 6)Strength reduction
-- 投资配比 [www.youtube.com](https://www.youtube.com/watch?v=YdXG2oMhns0) #方法
+- 投资配比 [www.youtube.com](https://www.youtube.com/watch?v=YdXG2oMhns0) #投资方法
 	- 25% 指数基金 500w
 	- 15% 公司个股 300w
 	- 50% 房地产 1000w
@@ -207,7 +207,7 @@ exclude-from-graph-view:: true
 - [mp.weixin.qq.com](https://mp.weixin.qq.com/s/1LVSQTRDcYRCmDLaRemgiA)
 	- [[生活中的政治正确就是低调，做坏事骗人才需要虚张声势。]]
 - There's definitely a sense that the world's kind of a dangerous and unpredictable place.#英语
-- She needs a **respite** after a long journey. #英语 #card
+- She needs a **respite** after a long journey. #外语学习 #card
   card-last-interval:: 4
   card-repeats:: 1
   card-ease-factor:: 2.6
@@ -221,7 +221,7 @@ exclude-from-graph-view:: true
 	- 算法：leetcode [[艾宾浩斯]]
 	- 健身：哑铃 训记
 	- rust/存储：边学，边实践，github业务项目
-- **Most often** we procrastinate when **faced with** something we do not want to do. #英语 #card
+- **Most often** we procrastinate when **faced with** something we do not want to do. #外语学习 #card
   card-last-interval:: 4
   card-repeats:: 1
   card-ease-factor:: 2.6
@@ -232,13 +232,13 @@ exclude-from-graph-view:: true
 	- 面对不想做的事情，我们经常拖延
 - 如果“建筑师”更重要建议就多坚持。自我实现满足感更重要就建议换合适的目标、丰富生活内容。超越同龄人的优越感更重要就早日认清现实的多样。 [如何评价王垠的《相对论推导练习》？ - 知乎]([www.zhihu.com](https://www.zhihu.com/question/558302771))
 - 把大部分事情安排到早上做，最早可以倒推到4点半，这样效率会高很多。晚上就要10点半之前睡了。
-- 今天我们学习一个短语，叫做be behind in sth.动词你也可以换成fall，介词用with也可以。所以还可以说be behind with sth.fall behind in sth.或者fall behind with sth.都是一个意思，表达：be late in paying money or completing work“付款或者完成工作的时候晚了”； eg: She’s fallen behind with the payments.她付费迟了。/她付费晚了。/她付费逾期了。 eg: He was terribly behind in his work.他工作进度严重落后。/他积压了很多工作还没有完成。 #英语
-- 学[[语法]]应该先搞清楚整体框架，然后再去试图记住特例的细枝末节 #英语 #学习方法
-- You’d think the dreamers would find the dreamers, and the realists would find the realists, but more often than not, the opposite is true. #英语
+- 今天我们学习一个短语，叫做be behind in sth.动词你也可以换成fall，介词用with也可以。所以还可以说be behind with sth.fall behind in sth.或者fall behind with sth.都是一个意思，表达：be late in paying money or completing work“付款或者完成工作的时候晚了”； eg: She’s fallen behind with the payments.她付费迟了。/她付费晚了。/她付费逾期了。 eg: He was terribly behind in his work.他工作进度严重落后。/他积压了很多工作还没有完成。 #外语学习
+- 学[[语法]]应该先搞清楚整体框架，然后再去试图记住特例的细枝末节 #外语学习 #学习方法
+- You’d think the dreamers would find the dreamers, and the realists would find the realists, but more often than not, the opposite is true. #外语学习
 	- more often than not = usually，much of the time
 - 打[[乒乓球]]真舒服，用youtube王楠教学视频里用乒乓球拍前半部打球，进攻稳了很多 #运动
 	- https://www.youtube.com/watch?v=XwUC5TfmztE&t=692s
-- to admit that one is wrong, usually when doing so triggers great embarrassment or shame #英语
+- to admit that one is wrong, usually when doing so triggers great embarrassment or shame #外语学习
 	- “承认自己之前说错了/做错了，（尤其是承认自己错了会带来极大的尴尬、羞辱感的时候）”；
 - 认真学习在线文章，还是要有思维导图，能系统化的记忆，有图形的骨架在那里，会比看完不做[[笔记]]，深刻很多。而且用[[思维导图]]很容易做类比，加入自己的理解。
   id:: 649498e0-44a7-4c60-b6ab-720553a69432
