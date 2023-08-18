@@ -1,0 +1,4 @@
+- 负面问题都是在印度发生的
+- 如果这样还不能让你满意，，，，，，那不好意思
+- 友善啊，，，朋友
+- 每个月挑战一个自我提升的routine，as youtube: vagabhi/shuaisoserious
