@@ -1,9 +1,10 @@
-- [[routine]]
+- [[routine half year]]
 - [[GTD]]
-	- [[工作计划]]
-	- [[短期目标]]
+	- [[工作计划 3month]]
+	- [[短期目标 1 week]]
 	- [[TODO]]
 	  id:: 649663d8-2553-40e9-b7be-ac34f45a327e
 - [[leetcode]]
-- [[云支付]]
 - [[ebook]]
+  collapsed:: true
+	- [pdf note]([[file]])
