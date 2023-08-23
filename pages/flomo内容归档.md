@@ -100,6 +100,7 @@ exclude-from-graph-view:: true
 	- 古德哈特定律，「当一个指标变成目标，它将不再是一个好的指标」。
 	- [[习惯被养成是因为同一种行为被重复了多次。]]——多重复才是王道。
 - dfs vs backtrack vs bfs #算法 #card
+  id:: 64ccc884-c60b-49e6-8aa5-c03997cab0da
 	- [[dfs]]：深度优先，使用LIFO(stack)，后进先出，遍历图
 	- [[backtrack]]：回溯算法，递归隐式使用栈(stack)，遍历树
 	- [[bfs]]：显式使用队列，FIFO，先进先出，不使用递归。队列里存储的是访问到最前端的顶点。
