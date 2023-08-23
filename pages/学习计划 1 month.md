@@ -45,4 +45,6 @@
 			- DDIA
 			- 弱一致性论文
 		- 机器学习
-		    [《动手学深度学习》](https://zh.d2l.ai/index.html)
+			- [实用机器学习](https://space.bilibili.com/1567748478/channel/collectiondetail?sid=28144)
+			- [动手学深度学习 PyTorch版](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
+				- [《动手学深度学习》](https://zh.d2l.ai/index.html)
