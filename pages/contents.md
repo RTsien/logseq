@@ -1,5 +1,4 @@
 - [[GTD]]
-  collapsed:: true
 	- [[routine half year]]
 	- [[工作计划 3month]]
 	- [[短期目标 1 week]]
