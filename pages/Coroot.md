@@ -1,0 +1,7 @@
+- #可观测性 #服务依赖可视化 #AI根因分析
+-
+- https://coroot.com/
+- https://coroot.com/docs/coroot-community-edition/getting-started/installation
+- Metrics, logs, traces, and profiles are gathered automatically by using [[eBPF]]
+- Profile any application in 1 click
+	- Analyze any unexpected spike in CPU or memory usage down to the precise line of code
