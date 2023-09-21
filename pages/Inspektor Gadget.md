@@ -1,0 +1,7 @@
+- #k8s #ebpf
+- https://www.inspektor-gadget.io/docs/latest/gadgets/
+- Using advise gadgets：网络策略和安全策略
+- Using snapshot gadgets：进程列表
+- Using profile gadgets：io、cpu、tcp rtt
+- Using trace gadgets：**oomkill**比较有用，可以监控集群内的oom事件，并且具体到pod和容器
+- Using prometheus：可以把信息输出为prometheus格式
