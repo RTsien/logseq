@@ -1,12 +1,16 @@
 - [[GTD]]
 	- [[routine half year]]
+		- [[每日惯例]]
 	- [[工作计划 3month]]
-	- [[短期目标 1 week]]
+	- [[学习计划 1 month]]
+	- [[短期行动 1 week]]
 	- [[TODO]]
 	  id:: 649663d8-2553-40e9-b7be-ac34f45a327e
 - [[leetcode]]
-- [[ebook]]
-	- [pdf note]([[file]])
+- [[学习资料]]
+	- [[ebook]]
+		- [pdf note]([[file]])
 - work
 	- [[云支付]]
 	- [[审计]]
+	- [[LEGO]]
