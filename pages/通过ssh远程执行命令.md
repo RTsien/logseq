@@ -1,1 +1,1 @@
-- #ssh #linux #shell
+- #ssh #linux #shell #bash
