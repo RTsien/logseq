@@ -1,0 +1,1 @@
+- Quilkin is a non-transparent UDP proxy specifically designed for use with large scale multiplayer dedicated game servers deployments that ensures security, access control, telemetry data, metrics and more without the end user having to custom build and integrate this functionality into their game clients and servers directly.

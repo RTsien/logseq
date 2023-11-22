@@ -6,46 +6,15 @@
 	    雅思核心单词：百词斩 #TODO
 	- 马督工教你做自媒体
 - 技术
-	- [[算法和数据结构]]
-		- 快速浏览完《labuladong算法》，了解基本套路，记入[[艾宾浩斯]]
+	- [[算法和数据结构学习资料]]
 		- 刷[LeetCode热门100题](https://leetcode.cn/studyplan/top-100-liked/)，9/100 #leetcode #TODO
-		- 快速浏览完《算法》，了解基本原理，找到重点难点，计入[[艾宾浩斯]]
-		- [剑指offer](https://leetcode.cn/studyplan/coding-interviews/) #剑指offer
-		- [左程云200题](https://b23.tv/B5kDQrb)
-	- 八股文
-	    [小林coding](https://xiaolincoding.com/) 包含[[操作系统]]，[[网络]]，[[redis]]，[[mysql]] #小林coding
-	    [路人张的面试笔记](https://www.mianshi.online/) 跟小林coding类似，有[[系统设计]]题，智力题 #路人张的面试笔记
-	    **[马士兵教育](https://www.bilibili.com/video/BV14P411M7yR)** 看一下[[mq]]
-		- [[系统设计]]题：
-		    [路人张的面试笔记](https://www.mianshi.online/1283.html)
-		    [常见的架构设计面试题 | Beritra](https://www.notion.so/Beritra-6c85ee99a5894ac0a6c4a9dc8e2aeb4b?pvs=21) 
-		    [系统设计八股文-分布式ID生成器](https://www.notion.so/ID-56f99e774dc9417ca5fa337940b3b8da?pvs=21) 
-		    [系统设计入门](https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md#%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1%E5%85%A5%E9%97%A8)
-	- 语言
-	    [**go实现**](https://draveness.me/golang/)
-	    **[Go 程序员面试笔试宝典](https://golang.design/go-questions)**
-	- [[数据库]]
-		- [[mysql]]
-			- [[mysql 45讲]]正在阅读
-			- **[[《MySQL技术内幕》]]**
-			- 《数据库系统实现》
-			- **《MySQL高可用解决方案——从主从复制到InnoDB Cluster架构》**
-		- [[redis]]
-			- [redis数据结构](https://xiaolincoding.com/redis/)
-			    redis常用数据结构和命令
-			    看完小林code的redis数据结构
-			- Redis事务 [Redis面试八股文第一弹](https://zhuanlan.zhihu.com/p/457798648) #路人张的面试笔记
-		- [[rocksdb]]实现
-		- [[tikv]]实现
-	- 交易系统
-	    看内网的交易系统细节，和数据一致性问题
-	    wx支付可靠事件中心的实现原理和源码
-	    微信支付中的微服务模式（三）----反脆弱性
-	- 技术爱好
-		- 分布式数据库
-			- DDIA
-			- 弱一致性论文
-		- 机器学习
-			- [实用机器学习](https://space.bilibili.com/1567748478/channel/collectiondetail?sid=28144)
-			- [动手学深度学习 PyTorch版](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
-				- [《动手学深度学习》](https://zh.d2l.ai/index.html)
+	- [[golang学习资料]]
+		- [go垃圾回收](https://draveness.me/golang/)
+	- [[mysql学习资料]]
+		- [[mysql 45讲]]正在阅读
+	- [[八股文学习资料]]
+		- [小林coding](https://xiaolincoding.com/)  redis数据结构
+	- [[支付系统学习资料]]
+		- 继续收集
+	- 尝试基于[[bcc]]编写[[ebpf]]工具
+		- 在sidecar里集成，尝试是否能够探测pod内发生的oom
