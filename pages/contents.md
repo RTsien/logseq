@@ -12,7 +12,7 @@
 		- [pdf note]([[file]])
 - work
 	- [[云支付]] [[支付审计]] [[LEGO]]
-	- [[bcc]] [[k8s]] [[service mesh]]
+	- [[ebpf]] [[k8s]] [[gameserver]]
 - 写作，以教代学
 	- [[多巴胺]]
 	- [[培养习惯]]
