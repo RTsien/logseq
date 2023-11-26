@@ -4,7 +4,5 @@
 - ServiceMesh：MOSN源码、ISTIO源码
 - OpenKruise源码
 - AGONES源码
+- 熟悉kubebuilder
 - 业务知识：收集km支付相关资料
--
--
-- ~~ML：推荐系统入门~~ 20230820
