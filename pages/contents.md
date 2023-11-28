@@ -6,19 +6,15 @@
 	- [[短期行动 1 week]]
 	- [[TODO]]
 	  id:: 649663d8-2553-40e9-b7be-ac34f45a327e
-	- [[Readwise]]
-	- [[Review]]
-- [[leetcode]]
-- [[学习资料]]
-	- [[ebook]]
-		- [pdf note]([[file]])
-- work
+- [[PKM]]
+	- [[Readwise]] [[微信读书笔记]] [[Notability笔记]] [Review]]
+	- [pdf note]([[file]]) [[ebook]]
+- [[Work]]
+	- [[学习资料]] [[leetcode]]
 	- [[云支付]] [[支付审计]] [[LEGO]]
 	- [[ebpf]] [[k8s]] [[gameserver]]
 - [[写作]]，以教代学
-	- [[多巴胺]]
-	- [[培养习惯]]
+	- [[多巴胺]] [[学习技巧]] [[培养习惯]]
 	- [[斯多葛]]
 	- [[国富论]]
-	- [[学习技巧]]
 - [[常用工具]]

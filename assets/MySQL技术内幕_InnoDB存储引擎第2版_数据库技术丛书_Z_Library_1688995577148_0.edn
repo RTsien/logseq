@@ -69,4 +69,4 @@
                           :page 554},
                :content {:text "事务的实现事务隔离性由第6章讲述的锁来实现。原子性、一致性、持久性通过数据库的redo log和undo log来完成。redo log称为重做日志，用来保证事务的原子性和持久性。undo log用来保证事务的一致性。"},
                :properties {:color "yellow"}}],
- :extra {:page 554}}
+ :extra {:page 537}}
