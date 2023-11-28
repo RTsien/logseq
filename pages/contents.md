@@ -7,18 +7,13 @@
 	- [[TODO]]
 	  id:: 649663d8-2553-40e9-b7be-ac34f45a327e
 - [[PKM]]
-	- [[Readwise]]
-	- [pdf note]([[file]])
-	- [[ebook]]
-	- [[微信读书笔记]]
-	- [[ReadPaper笔记]]
-	- [[Notability笔记]]
-- Work
-	- [[学习资料]]
-	- [[leetcode]]
+	- [[Readwise]] [[微信读书笔记]] [[Notability笔记]] [Review]]
+	- [pdf note]([[file]]) [[ebook]]
+- [[Work]]
+	- [[学习资料]] [[leetcode]]
 	- [[云支付]] [[支付审计]] [[LEGO]]
 	- [[ebpf]] [[k8s]] [[gameserver]]
-- 写作，以教代学
+- [[写作]]，以教代学
 	- [[多巴胺]] [[学习技巧]] [[培养习惯]]
 	- [[斯多葛]]
 	- [[国富论]]
