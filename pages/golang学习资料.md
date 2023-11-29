@@ -1,3 +1,3 @@
-- #go #学习资料
+- #golang #学习资料
 - [go实现](https://draveness.me/golang/)
 - [Go 程序员面试笔试宝典](https://golang.design/go-questions)

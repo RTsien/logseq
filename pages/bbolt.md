@@ -1,3 +1,3 @@
-- #go #kv #etcd
+- #golang #kv #etcd
 - Bolt was originally a port of LMDB
 - Embedded Database [[LMDB]] https://www.symas.com/symas-embedded-database-lmdb #kv
