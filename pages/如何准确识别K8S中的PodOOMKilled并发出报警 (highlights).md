@@ -22,3 +22,11 @@ url:: https://www.ipcpu.com/2023/06/k8s-pod-oom-killed/
 	  
 	  [https://github.com/ipcpu/npd-yaml/blob/main/npd.yaml](https://github.com/ipcpu/npd-yaml/blob/main/npd.yaml) ([View Highlight](https://read.readwise.io/read/01hge2zt55z99nc8s2gx6vg5r0))
 	- 有了NPD模块，我们使用K8S的eventrouter功能就可以发到统一汇总的地址了，这里我们是输出到kafka，然后扔进了阿里的SLS，使用了阿里云SLS报警系统。 ([View Highlight](https://read.readwise.io/read/01hge2zejf8eebttaej19yreaw))
+- New highlights added [[Dec 5th, 2023]] at 8:35 PM
+	- 在K8S中可以使用如下命令查看POD的UUID信息
+		- 💡: 可以加到环境变量，方便在容器内获取 
+		       \- name: POD_ID
+		          valueFrom:
+		            fieldRef:
+		              apiVersion: v1
+		              fieldPath: metadata.uid
