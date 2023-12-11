@@ -1,1 +1,1 @@
-- #k8s #OpenKruise #gameserver
+- #OpenKruise #gameserver
