@@ -7,7 +7,7 @@
 	- [[TODO]]
 	  id:: 649663d8-2553-40e9-b7be-ac34f45a327e
 - [[PKM]]
-	- [[Readwise]] [[微信读书笔记]] [[Notability笔记]] [Review]]
+	- [[Readwise]] [[微信读书笔记]] [[Notability笔记]] [[Review]]
 	- [pdf note]([[file]]) [[ebook]]
 - [[Work]]
 	- [[学习资料]] [[leetcode]]
