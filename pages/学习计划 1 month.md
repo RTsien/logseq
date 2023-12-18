@@ -16,7 +16,7 @@
 		- [小林coding](https://xiaolincoding.com/)  redis数据结构
 	- [[支付系统学习资料]]
 		- 继续收集
-	- 尝试基于[[bcc]]编写[[ebpf]]工具
+	- 尝试基于[[bcc]]编写[[eBPF]]工具
 		- 在sidecar里集成，尝试是否能够探测pod内发生的oom
 	- [[k8s]]游戏扩展
 		- [[CruiseGame]]
