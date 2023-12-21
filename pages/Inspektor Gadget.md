@@ -1,4 +1,4 @@
-- #k8s #ebpf #tracing
+- #k8s #eBPF #tracing
 - https://www.inspektor-gadget.io/docs/latest/gadgets/
 - Using advise gadgets：网络策略和安全策略
 - Using snapshot gadgets：进程列表

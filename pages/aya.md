@@ -1,2 +1,2 @@
-- #rust #ebpf
+- #rust #eBPF
 - https://github.com/aya-rs/aya

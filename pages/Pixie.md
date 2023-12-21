@@ -1,4 +1,4 @@
-- #ebpf #k8s
+- #eBPF #k8s
 - [src](https://docs.px.dev/) [tutorials](https://docs.px.dev/using-pixie/using-live-ui/)
 - Pixie is an open source observability tool for Kubernetes applications.
 - Pixie uses [eBPF](https://docs.px.dev/about-pixie/pixie-ebpf) to automatically capture telemetry data without the need for manual instrumentation.
