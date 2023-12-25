@@ -3,7 +3,6 @@ author:: [[openkruise.io]]
 full-title:: "游戏服伸缩"
 category:: #articles
 url:: https://openkruise.io/zh/kruisegame/user-manuals/gameservers-scale/#openkruisegame%E7%9A%84%E6%B0%B4%E5%B9%B3%E4%BC%B8%E7%BC%A9%E7%89%B9%E6%80%A7
-![](https://readwise-assets.s3.amazonaws.com/static/images/article0.00998d930354.png)
 
 - Highlights first synced by [[Readwise]] [[Dec 11th, 2023]]
 	- 游戏服与无状态业务类型不同，对于自动伸缩特性有着更高的要求，其要求主要体现在缩容方面。
