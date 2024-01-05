@@ -12,8 +12,10 @@
 - [[Work]]
 	- [[学习资料]] [[leetcode]]
 	- [[云支付]] [[支付审计]] [[LEGO]]
-	- [[eBPF]] [[k8s]] [[gameserver]] [[OpenKruise]]
+	- [[k8s]] [[gameserver]] [[OpenKruise]]
+	- [[linux]] [[eBPF]]
 	- [[开源项目]]
+	- [[机器学习]] [[LLM]] [[推荐系统]]
 - [[写作]]，以教代学
 	- [[多巴胺]] [[学习技巧]] [[培养习惯]]
 	- [[斯多葛]]
