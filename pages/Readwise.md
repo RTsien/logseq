@@ -43,3 +43,6 @@ exclude-from-graph-view:: true
 - On [[Jan 10th, 2024]] at 5:13 PM Readwise synced 2 highlights from 2 books.
 - On [[Jan 11th, 2024]] at 8:57 AM Readwise synced 3 highlights from 2 books.
 - On [[Jan 12th, 2024]] at 2:42 PM Readwise synced 3 highlights from 2 books.
+- On [[Jan 13th, 2024]] at 12:59 AM Readwise synced 1 highlight from 1 book.
+- On [[Jan 15th, 2024]] at 10:09 AM Readwise synced 3 highlights from 2 books.
+- On [[Jan 15th, 2024]] at 1:32 PM Readwise synced 6 highlights from 2 books.
