@@ -1,0 +1,31 @@
+title:: Looking Back at Postgres (highlights)
+author:: [[Murat (noreply@blogger.com)]]
+full-title:: "Looking Back at Postgres"
+category:: #articles
+url:: http://muratbuffalo.blogspot.com/2024/01/looking-back-at-postgres.html
+![](https://blogger.googleusercontent.com/img/a/AVvXsEiQyKNDqWwDr5pttQ5syr2-Eamy21Ojf77xs79FR5p4DVvKEIaHtOR-wH6Q6KLeANhHJwdMMtnbtnAJAjfc0b5wJNIw12Qpws0vMUfJBz6smroWCrX2xjMsp8ovEptNtmnzKXXI7wgm3nz-nRBaAl6i7NJMqF4OyMDmtpFD6PRrNlB6tusNxrc0Ll43dyc=s72-c)
+
+- Highlights first synced by [[Readwise]] [[Jan 21st, 2024]]
+	- Postgres origin story
+	  
+	  Riding on the success of Ingres project at Berkeley, and the subsequent start-up Relational Technology, Inc. (RTI), Stonebraker began working on database support for data types beyond the traditional rows and columns of Codd's relational model in the early 1980s. A motivating example was to provide database support for Computer-Aided Design (CAD) tools for the microelectronics industry, including "new data types such as polygons, rectangles, text strings, etc." "efficient spatial searching" "complex integrity constraints" and "design hierarchies and multiple representations" of the same physical constructions.
+	  
+	  What the hey? I didn't expect this to be the origin story of Postgres!! This is almost exactly the motivation for MongoDB document database in 2007, a good 35 years later. ([View Highlight](https://read.readwise.io/read/01hmnhnfnxy01qee0nv87twdb1))
+	- Postgres was "Post-Ingres": a system designed to take what Ingres could do, and go beyond. The signature theme of Postgres was the introduction of what Stonebraker eventually called Object-Relational database features: support for object-oriented programming ideas within the data model and declarative query language of a database system. But Stonebraker also decided to pursue a number of other technical challenges in Postgres that were independent of object-oriented support, including active database rules, versioned data, tertiary storage, and parallelism. ([View Highlight](https://read.readwise.io/read/01hmnhn5p9tkbdj16rf6f56wsn))
+	- Relational modeling religion dictated that data should be restructured and stored in an unnested format, using multiple flat entity tables (orders, products) with flat relationship tables (product_in_order) connecting them. But in some cases you want to store the nested representation, because it is natural for the application. 
+	  
+	  Postgres retained tables as its "outermost" data type, but allowed columns to have "complex" types including nested tuples or tables. One of its more esoteric implementations, first explored in the ADT-Ingres prototype, was to allow a table-typed column to be specified declaratively as a query definition: "Quel as a data type". ([View Highlight](https://read.readwise.io/read/01hmnj79xbhv4pnsjfavgdskgb))
+- New highlights added [[Jan 21st, 2024]] at 5:30 PM
+	- As Postgres has grown over the years (and shifted syntax from Postquel to versions of SQL that reflect many of these goals), it has incorporated support for nested data like XML and JSON into a general-purpose DBMS without requiring any significant rearchitecting. The battle swings back and forth, but the Postgres approach of extending the relational framework with extensions for nested data has shown time and again to be a natural end-state for all parties after the arguments subside. ([View Highlight](https://read.readwise.io/read/01hmnjd2ezm6q60r6p33qw2feb))
+		- 💡: 随着Postgres多年的发展（并从Postquel语法转向反映这些目标的SQL版本），它将对XML和JSON等嵌套数据的支持纳入了通用DBMS，而无需进行任何重大的重新架构。战斗来回摇摆，但是Postgres通过为嵌套数据扩展关系框架的方法，一次又一次地证明在争论平息后对所有各方来说都是自然的最终状态。
+	- comprehensive ([View Highlight](https://read.readwise.io/read/01hmnjj86hf0j5335trgj2eft5))
+		- 💡: 全面地
+	- Why put this functionality into the DBMS, rather than the applications above? The classic answer was the significant performance benefit of “pushing code to data,” rather than “pulling data to code.” Postgres showed that this is quite natural within a relational framework: it involved modest changes to a relational metadata catalog, and mechanisms to invoke foreign code, but the query syntax, semantics, and system architecture all worked out simply and elegantly. ([View Highlight](https://read.readwise.io/read/01hmnjkb20qx61yv0xhh46073z))
+	- R-trees became a powerful driver and the main example of the elegant extensibility of Postgres’ access method layer and its integration into the query optimizer. Postgres demonstrated— in an opaque ADT style --how to register an abstractly described access method (the R-tree, in this case), and how a query optimizer could recognize an abstract selection predicate (a range selection in this case) and match it to that abstractly described access method. ([View Highlight](https://read.readwise.io/read/01hmnjqmvman2sr00tp9fsxsq2))
+		- 💡: 1984年，加州大学伯克利分校的Guttman发表了一篇题为“R-trees: a dynamic index structure for spatial searching”的论文，向世人介绍了R树这种处理高维空间存储问题的数据结构。
+	- Over the years, Stonebraker repeatedly expressed distaste for the complex write-ahead logging schemes pioneered at IBM and Tandem for database recovery. One of his core objections was based on a software engineering intuition that nobody should rely upon something that complicated--especially for functionality that would only be exercised in rare, critical scenarios after a crash. ([View Highlight](https://read.readwise.io/read/01hmnkd8dj9a14gyjr90canrnv))
+		- 💡: 多年来，Stonebraker一再表达了对IBM和Tandem先驱的复杂WAL方案进行数据库恢复的反感。他的核心反对意见之一基于软件工程直觉，即没有人应该依赖那么复杂的东西，特别是在崩溃后只会在罕见的关键场景中使用的功能。
+		  
+		  distaste 厌恶
+	- In the end, the Postgres storage system never excelled on performance; versioning and time-travel were removed from PostgreSQL over time and replaced by write-ahead logging. This is because, once the commercial vendors had write-ahead logs working well, they had innovated on follow-on ideas such as transactional replication based on log shipping, which would be difficult in the Postgres scheme. ([View Highlight](https://read.readwise.io/read/01hmnmk8k6tj75rj6yg0j2ybdb))
+		- 💡: 最终，Postgres存储系统在性能方面从未卓越； 随着时间的推移，PostgreSQL中的版本控制和时间旅行被移除，并被写入日志所取代。这是因为，一旦商业供应商的写入日志工作良好，他们便在其后续想法上进行了创新，例如基于日志传送的事务复制，这在Postgres方案中将非常困难。
