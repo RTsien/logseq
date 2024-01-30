@@ -1,2 +1,2 @@
-- #OpenKruise #gameserver  缩写[[OKG]]
-- {{embed ((65b1fb4f-3578-40b6-bb67-2607997b467e))}}
+- #OpenKruise #gameserver #OpenMatch 缩写[[OKG]]
+- {{embed ((65606b21-8532-453b-a28e-fc8a68a1cfc5))}}

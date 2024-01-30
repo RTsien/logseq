@@ -3,9 +3,11 @@
 		- [[每日惯例]]
 	- [[工作计划 3month]]
 	- [[学习计划 1 month]]
+		- [[学习inbox]]
 	- [[短期行动 1 week]]
 	- [[TODO]] [[❓]]
 	  id:: 649663d8-2553-40e9-b7be-ac34f45a327e
+	- [[年度阅读计划]]
 - [[PKM]]
 	- [[Readwise]] [[微信读书笔记]] [[Notability笔记]] [[Review]]
 	- [pdf note]([[file]]) [[ebook]]

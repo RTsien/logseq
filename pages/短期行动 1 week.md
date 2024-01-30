@@ -1,11 +1,11 @@
-- 公司中午
-- ServiceMesh：MOSN源码、ISTIO源码
-- OpenKruise源码
+- 早晨在家
+- 算法：top100，每个类型题目先各做一个
+-
+- 空闲
+- [[《被忽视的孩子》]]
+-
+- 公司
+- [[《Linux性能优化实战》]]
+- ServiceMesh：ISTIO概念
 - AGONES源码
 - 熟悉kubebuilder
--
-- 早晨在家
-- 英语：雅思核心单词每天30
-- 存储：mysql45讲
-- 算法：top100，每个类型题目先各做一个
-- 业务知识：收集km支付相关资料
