@@ -15,4 +15,4 @@ url:: https://flashcat.cloud/blog/troubleshoot-kubernetes-oom/
 	    (kube_pod_container_resource_limits{resource="cpu"}))
 	    
 	  
-	  如果我们想要跟踪集群中发生的限制量，cadvisor 提供了 container_cpu_cfs_throttled_periods_total 和 container_cpu_cfs_periods_total 两个指标。通过这两个指标，您可以轻松计算所有 CPU 周期内的限制百分比。 ([View Highlight](https://read.readwise.io/read/01hgww2hp5ga3b96rvt4qms48v))
+	  如果我们想要跟踪集群中发生的限制量，[[cadvisor]] 提供了 container_cpu_cfs_throttled_periods_total 和 container_cpu_cfs_periods_total 两个指标。通过这两个指标，您可以轻松计算所有 CPU 周期内的限制百分比。 ([View Highlight](https://read.readwise.io/read/01hgww2hp5ga3b96rvt4qms48v))

@@ -1,1 +1,1 @@
-- #k8s #gameserver
+- #k8s #gameserver #PVP
