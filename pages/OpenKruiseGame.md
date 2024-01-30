@@ -1,1 +1,2 @@
-- #OpenKruise #gameserver
+- #OpenKruise #gameserver #OpenMatch
+- {{embed ((65606b21-8532-453b-a28e-fc8a68a1cfc5))}}
