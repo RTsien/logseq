@@ -12,7 +12,6 @@ summary:: 软件研发的实用主义思考围绕着实用性进行设计，但�
 	  即可生成“目录”
 	  
 	  软件研发的实用主义思考
-	  
 	  [
 	  
 	  ](https://km.woa.com/base/headlines?kmref=article_headline)

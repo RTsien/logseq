@@ -1,12 +1,12 @@
 - 早晨在家
-- 算法：top100，每个类型题目先各做一个
+- 算法top100 9/100
 -
 - 空闲
 - [[《极简关系》]]
 - [[《被忽视的孩子》]]
 -
 - 公司
-- [[《Linux性能优化实战》]]
-- ServiceMesh：ISTIO概念
+- [[《Linux性能优化实战》]] 9/58
+- ServiceMesh：ISTIO概念 [Istio / Bookinfo 应用](https://istio.io/latest/zh/docs/examples/bookinfo/)
 - AGONES源码
 - 熟悉kubebuilder
