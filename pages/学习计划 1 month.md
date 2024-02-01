@@ -15,7 +15,7 @@
 		- [[mysql 45讲]]正在阅读
 	- [[八股文学习资料]]
 		- [小林coding](https://xiaolincoding.com/)  redis数据结构
-	- 尝试基于[[bcc]]编写[[eBPF]]工具
+	- 尝试基于[[BCC]]编写[[eBPF]]工具
 		- [[《eBPF核心技术与实战》]]
 		- 在sidecar里集成，尝试是否能够探测pod内发生的oom
 	- [[k8s]]游戏扩展

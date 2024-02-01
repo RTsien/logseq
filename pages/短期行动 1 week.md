@@ -6,7 +6,8 @@
 - [[《被忽视的孩子》]]
 -
 - 公司
-- [[《Linux性能优化实战》]] 9/58
+- [[《Linux性能优化实战》]] 14/58
+- [[《eBPF核心技术与实战》]] 7/26
 - ServiceMesh：ISTIO概念 [Istio / Bookinfo 应用](https://istio.io/latest/zh/docs/examples/bookinfo/)
 - AGONES源码
 - 熟悉kubebuilder
