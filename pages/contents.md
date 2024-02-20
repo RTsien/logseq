@@ -14,8 +14,10 @@
 	- [pdf note]([[file]]) [[ebook]]
 - [[Work]]
 	- [[学习资料]] [[leetcode]]
-	- [[云支付]] [[支付审计]] [[LEGO]]
-	- [[k8s]] [[gameserver]] [[OpenKruise]]
+	- [[技术文章拆解]]
+	- [[云支付]] [[支付审计]] [[支付系统]]
+	- [[k8s]]  [[OpenKruise]] [[LEGO]]
+	- [[gameserver]]
 	- [[linux]] [[eBPF]] [内存管理]([[linux内存管理机制]])
 	- [[机器学习]] [[LLM]] [[推荐系统]]
 	- [[开源项目]]
