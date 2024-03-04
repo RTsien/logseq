@@ -1,0 +1,3 @@
+- 在Linux中，将目录A挂载到目录B，则目录B原有的文件都会被目录A下的文件覆盖。
+- 那么在k8s中，如何将configmap挂载到容器中某个目录的文件中呢？答案是使用subPath。
+- subPath可以将configMap和secret作为文件挂载到容器中而不覆盖挂载目录下的文件。
