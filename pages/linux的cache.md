@@ -1,0 +1,11 @@
+- `man free`的cache = `/proc/meminfo`的Cached + `/proc/meminfo`的SReclaimable
+- Page Cache = `/proc/meminfo`的Cached = [[文件页]]+ shmem #card
+	- {{embed ((65d83eb1-fd3a-4240-8c90-a430b136d89c))}}
+	- {{embed ((65d76fba-37c6-4d76-981b-3d18f1814c93))}}
+		- {{embed ((65d84955-f9d7-47df-a5a9-81efe60b92d7))}}
+	- {{embed ((65d83a01-797e-4c56-915a-f3315a40f38f))}}
+	- [[文件页]](File-backed Page) = `/proc/meminfo`的Mapped
+	- shmem  = tmpfs + “share memory based IPC” + SHARED mmap + GEM objects
+		- {{embed ((65d83abe-f626-4253-8b4d-72a850666645))}}
+	- {{embed ((65d8382b-fe01-46e0-8d6b-f5f41fd3be62))}}
+		- {{embed ((65d848e3-2a20-4dc8-8c54-129c8075b613))}}
