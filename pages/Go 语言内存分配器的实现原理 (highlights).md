@@ -52,3 +52,39 @@ url:: https://draveness.me/golang/docs/part3-runtime/ch07-memory/golang-memory-a
 	  
 	  ![](https://img.draveness.me/2020-02-29-15829868066512-mcache-and-mspans.png) ([View Highlight](https://read.readwise.io/read/01hkccwz7d7bxqzct62m1645sn))
 	- [`runtime.mcache.refill`](https://draveness.me/golang/tree/runtime.mcache.refill) 会为线程缓存获取一个指定跨度类的内存管理单元，被替换的单元不能包含空闲的内存空间，而获取的单元中需要至少包含一个空闲对象用于分配内存： ([View Highlight](https://read.readwise.io/read/01hkcdd831g1c7afn08tth0xa3))
+- New highlights added [[Feb 29th, 2024]] at 8:39 AM
+	- 运行时会使用 [`runtime.mSpanStateBox`](https://draveness.me/golang/tree/runtime.mSpanStateBox) 存储内存管理单元的状态 [`runtime.mSpanState`](https://draveness.me/golang/tree/runtime.mSpanState)：
+	  
+	    type mspan struct {
+	    	...
+	    	state       mSpanStateBox
+	    	...
+	    }
+	    
+	  
+	  该状态可能处于 `mSpanDead`、`mSpanInUse`、`mSpanManual` 和 `mSpanFree` 四种情况。当 [`runtime.mspan`](https://draveness.me/golang/tree/runtime.mspan) 在空闲堆中，它会处于 `mSpanFree` 状态；当 [`runtime.mspan`](https://draveness.me/golang/tree/runtime.mspan) 已经被分配时，它会处于 `mSpanInUse`、`mSpanManual` 状态，运行时会遵循下面的规则转换该状态：
+	  
+	  •   在垃圾回收的任意阶段，可能从 `mSpanFree` 转换到 `mSpanInUse` 和 `mSpanManual`；
+	  •   在垃圾回收的清除阶段，可能从 `mSpanInUse` 和 `mSpanManual` 转换到 `mSpanFree`；
+	  •   在垃圾回收的标记阶段，不能从 `mSpanInUse` 和 `mSpanManual` 转换到 `mSpanFree`；
+	  
+	  设置 [`runtime.mspan`](https://draveness.me/golang/tree/runtime.mspan) 状态的操作必须是原子性的以避免垃圾回收造成的线程竞争问题。 ([View Highlight](https://read.readwise.io/read/01hq4tgsrszr5zgtf0r92k6tqk))
+	- Go 语言的内存管理模块中一共包含 67 种跨度类，每一个跨度类都会存储特定大小的对象并且包含特定数量的页数以及对象，所有的数据都会被预选计算好并存储在 [`runtime.class_to_size`](https://draveness.me/golang/tree/runtime.class_to_size) 和 [`runtime.class_to_allocnpages`](https://draveness.me/golang/tree/runtime.class_to_allocnpages) 等变量中 ([View Highlight](https://read.readwise.io/read/01hq4thfyd1q4p1hcdz363agen))
+	- 线程缓存会通过中心缓存的 [`runtime.mcentral.cacheSpan`](https://draveness.me/golang/tree/runtime.mcentral.cacheSpan) 方法获取新的内存管理单元 ([View Highlight](https://read.readwise.io/read/01hq4wdg77xdkryhv7kn53jh3e))
+	- 页堆中包含一个长度为 136 的 [`runtime.mcentral`](https://draveness.me/golang/tree/runtime.mcentral) 数组，其中 68 个为跨度类需要 `scan` 的中心缓存，另外的 68 个是 `noscan` 的中心缓存：
+	  
+	  ![](https://img.draveness.me/2020-02-29-15829868066525-mheap-and-mcentrals.png) ([View Highlight](https://read.readwise.io/read/01hq5bjx7fqca9kz4hy8nhw36j))
+	- 在除了 Windows 以外的 64 位操作系统中，每一个 [`runtime.heapArena`](https://draveness.me/golang/tree/runtime.heapArena) 都会管理 64MB 的内存空间 ([View Highlight](https://read.readwise.io/read/01hq5bm4d45kywkkmr2rp5snm2))
+	- 为了阻止内存的大量占用和堆的增长，我们在分配对应页数的内存前需要先调用 [`runtime.mheap.reclaim`](https://draveness.me/golang/tree/runtime.mheap.reclaim) 方法回收一部分内存，随后运行时通过 [`runtime.mheap.allocSpan`](https://draveness.me/golang/tree/runtime.mheap.allocSpan) 分配新的内存管理单元，我们会将该方法的执行过程拆分成两个部分：
+	  
+	  1.  从堆上分配新的内存页和内存管理单元 [`runtime.mspan`](https://draveness.me/golang/tree/runtime.mspan)；
+	  2.  初始化内存管理单元并将其加入 [`runtime.mheap`](https://draveness.me/golang/tree/runtime.mheap) 持有内存单元列表； ([View Highlight](https://read.readwise.io/read/01hq5bptv8th61xea4jg0h9ycx))
+	- 使用 [`runtime.gomcache`](https://draveness.me/golang/tree/runtime.gomcache) 获取线程缓存并判断申请内存的类型是否为指针。我们从这个代码片段可以看出 [`runtime.mallocgc`](https://draveness.me/golang/tree/runtime.mallocgc) 会根据对象的大小执行不同的分配逻辑，在前面的章节也曾经介绍过运行时根据对象大小将它们分成微对象、小对象和大对象，这里会根据大小选择不同的分配逻辑：
+	  
+	  ![](https://img.draveness.me/2020-02-29-15829868066537-allocator-and-memory-size.png)
+	  
+	  **图 7-19 三种对象**
+	  
+	  •   微对象 `(0, 16B)` — 先使用微型分配器，再依次尝试线程缓存、中心缓存和堆分配内存；
+	  •   小对象 `[16B, 32KB]` — 依次尝试使用线程缓存、中心缓存和堆分配内存；
+	  •   大对象 `(32KB, +∞)` — 直接在堆上分配内存； ([View Highlight](https://read.readwise.io/read/01hq5cb6wp3hf7dxe186fszt96))
