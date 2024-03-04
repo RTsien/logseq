@@ -1,5 +1,6 @@
 - `man free`的cache = `/proc/meminfo`的Cached + `/proc/meminfo`的SReclaimable
 - Page Cache = `/proc/meminfo`的Cached = [[文件页]]+ shmem #card
+  id:: 65e576cd-dfd0-419b-928f-a1943f11f4c0
 	- {{embed ((65d83eb1-fd3a-4240-8c90-a430b136d89c))}}
 	- {{embed ((65d76fba-37c6-4d76-981b-3d18f1814c93))}}
 		- {{embed ((65d84955-f9d7-47df-a5a9-81efe60b92d7))}}
