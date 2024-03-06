@@ -1,0 +1,3 @@
+- **互联网控制消息协议**（英语：**I**nternet **C**ontrol **M**essage **P**rotocol，缩写：**ICMP**）
+- 它一般不用于在两点间传输数据。它通常不由网络程序直接使用，除了[[ping]] 和 [[traceroute]] 这两个特别的例子。
+- [互联网控制消息协议 - 维基百科，自由的百科全书 (wikipedia.org)](https://zh.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%8E%A7%E5%88%B6%E6%B6%88%E6%81%AF%E5%8D%8F%E8%AE%AE)
