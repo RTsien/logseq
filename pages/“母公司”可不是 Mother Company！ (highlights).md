@@ -8,6 +8,7 @@ summary:: 小时候梦想不同，有人想成为科学家，有人想当警察�
 
 - Highlights first synced by [[Readwise]] [[Mar 17th, 2024]]
 	- **母公司的正确表达** #card #英语语料
+	  id:: 15f9b18c-3fd7-4a48-9897-bda40dcb8da1
 		- **parent company** 来看英文词典的解释这里的parent并不是父亲或者母亲
 		  
 		  它表示创始机构，母公司，总部 ([View Highlight](https://read.readwise.io/read/01hs5tv40qpqfh2zam0bza8hjt))
@@ -27,6 +28,7 @@ summary:: 小时候梦想不同，有人想成为科学家，有人想当警察�
 			  
 			  *PS：因为subsidiary可以作形容词，所以子****公司也可以说subsidiary company****，不过直接用subsidiary更简洁，更常用。* ([View Highlight](https://read.readwise.io/read/01hs5tx5jz9q4bvg0g5xdf582m))
 	- in good company #card #英语语料
+	  id:: 65fbd088-b0c1-449e-94da-fc221244e3ed
 		- 这里它不表示好公司也不是好的陪伴
 		  
 		  而是表示**不必为错误担忧**
@@ -44,6 +46,7 @@ summary:: 小时候梦想不同，有人想成为科学家，有人想当警察�
 		  *噢没事，很多人都学不会。* ([View Highlight](https://read.readwise.io/read/01hs5v04bnf1dt0z4s9xhzfpqv))
 	-
 	- part company (with/from sb) #card #英语语料
+	  id:: 65fbd088-e1d1-470f-a59a-233306a43571
 		- **①** **离开；分手；断绝关系**
 		  
 		  *例：*
