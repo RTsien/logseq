@@ -1,14 +1,13 @@
 - 早晨在家
-- 算法top100 9/100
+	- 算法top100 9/100
 -
 - 空闲
-- [[《极简关系》]]
-- [[《被忽视的孩子》]]
+	- [[《极简关系》]]
+	- [[《被忽视的孩子》]]
+	- [[《关键时期关键帮助》]]
 -
 - 公司
-- [[《Linux性能优化实战》]] 14/58
-- [[《eBPF核心技术与实战》]] 7/26
-- ServiceMesh：ISTIO概念 [Istio / Bookinfo 应用](https://istio.io/latest/zh/docs/examples/bookinfo/)
-- Helm文档
-- 熟悉kubebuilder
-- AGONES源码
+	- [[《Linux性能优化实战》]] 41/58
+	- [[《eBPF核心技术与实战》]] 7/26
+	- ServiceMesh：ISTIO概念 [Istio / Bookinfo 应用](https://istio.io/latest/zh/docs/examples/bookinfo/)
+	- AGONES浏览代码，重点看主要功能

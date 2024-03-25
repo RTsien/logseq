@@ -1,6 +1,2 @@
-- 单部署多集群多规格配置
-- 分组属性管理
-- 路由sidecar，service mesh
-- ebpf
-- tracing
-- [[副业]]
+- 学习istio和ztunnel
+- zonesvr和ms-go代码精通
