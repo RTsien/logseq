@@ -3,4 +3,4 @@
 - [[routine half year]]
 - [[工作计划 3month]]
 - [[学习计划 1 month]]
-- {{embed [[短期行动 1 week]]}}
+- [[短期行动 1 week]]
