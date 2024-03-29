@@ -60,7 +60,7 @@ url:: https://jimmysong.io/kubernetes-handbook/usecases/before-using-istio.html
 	  
 	  Istio 作为一套技术方案，却并不是一套产品方案。如果你在生产环境中使用，你可能还需要解决可视化界面、权限和账号系统对接、结合公司已有技术组件和产品生态等问题，仅仅通过命令行来使用，可能并不能满足你的组织对权限、审计、易用性的要求。
 	  
-	  而 Isito 自带的 Kiali 功能还十分简陋，远远没有达到能在生产环境使用的程度，因此你可能需要研发基于 Isito 的上层产品。目前有一些服务网格的商业化公司致力于解决 Istio 的产品生态问题，如 [Tetrate](https://tetrate.io) 就是在基于 Istio、Envoy 和 Apache SkyWalking 构建企业级服务网格。 ([View Highlight](https://read.readwise.io/read/01hgt15a7jk90mgbaz1s8ww2wm))
+	  而 Isito 自带的 [[Kiali]] 功能还十分简陋，远远没有达到能在生产环境使用的程度，因此你可能需要研发基于 Isito 的上层产品。目前有一些服务网格的商业化公司致力于解决 Istio 的产品生态问题，如[[Tetrate]]就是在基于 Istio、Envoy 和 Apache SkyWalking 构建企业级服务网格。 ([View Highlight](https://read.readwise.io/read/01hgt15a7jk90mgbaz1s8ww2wm))
 	- Istio 目前解决的问题域还很有限
 	  
 	  Istio 目前主要解决的是分布式系统之间服务调用的问题，但还有一些分布式系统的复杂语义和功能并未纳入到 Istio 的 [sidecar](https://jimmysong.io/kubernetes-handbook/GLOSSARY.html#sidecar) 运行时之中，比如消息发布和订阅、状态管理、资源绑定等等。
