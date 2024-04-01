@@ -3,8 +3,7 @@
 	    [[腾讯音乐协会-唱歌基础班]] ：晚上班车听
 	- [[《被忽视的孩子》]]
 	- 记忆
-	    [英语语法新思维1](https://www.notion.so/1-dc9458d5ad9f4e43a24ed031f1cb0ed4?pvs=21) ：晚上用ipad，边看边做笔记
-	    雅思核心单词：百词斩 #TODO
+	    [英语语法新思维1](https://www.notion.so/1-dc9458d5ad9f4e43a24ed031f1cb0ed4?pvs=21) ：在电脑上看，logseq做好笔记
 	- 马督工教你做自媒体
 - 技术
 	- [[算法和数据结构学习资料]]
@@ -17,8 +16,10 @@
 		- [小林coding](https://xiaolincoding.com/)  redis数据结构
 	- 尝试基于[[BCC]]编写[[eBPF]]工具
 		- [[《eBPF核心技术与实战》]]
-		- 在sidecar里集成，尝试是否能够探测pod内发生的oom
+		- 在sidecar里集成，尝试是否能够探测pod内发生的[[oom]]
 	- [[k8s]]游戏扩展
-		- [[Agones]]
-		- [[OpenMatch]]
-		- [[istio]]
+		- [[Agones]] 浏览一下主要功能即可
+		- [[OpenMatch]] 做一下代码阅读笔记
+		- [[istio]] 学习一下具体概念，写出一个使用指南
+-
+- from {{embed [[学习inbox]]}}

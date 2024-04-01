@@ -1,6 +1,6 @@
 - {{embed [[个人角色 20 years]]}}
-- [[愿景 3 years]]
-- [[routine half year]]
-- [[工作计划 3month]]
-- [[学习计划 1 month]]
-- [[短期行动 1 week]]
+- {{embed [[愿景 3 years]]}}
+- {{embed [[routine half year]]}}
+- {{embed [[工作计划 3month]] }}
+- {{embed [[学习计划 1 month]] }}
+- {{embed [[短期行动 1 week]] }}

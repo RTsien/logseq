@@ -1,5 +1,5 @@
 title:: 如何在Kubernetes中实现容器原地升级 (highlights)
-author:: [[O]]
+author:: O
 full-title:: "如何在Kubernetes中实现容器原地升级"
 category:: #articles
 url:: https://cloud.tencent.com/developer/article/1413743
