@@ -1,2 +1,2 @@
-- #k8s #gameserver #PVP #OpenMatch
+- #K8s #gameserver #PVP #OpenMatch
 - {{embed ((65aa25ca-328f-4bf5-9c6f-e4ef7e22d196))}}

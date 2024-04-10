@@ -1,1 +1,1 @@
-- #k8s #openkruise.io
+- #K8s #openkruise.io
