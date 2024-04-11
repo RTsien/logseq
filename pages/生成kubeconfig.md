@@ -1,1 +1,1 @@
-- #kubeconfig #k8s
+- #kubeconfig #K8s

@@ -1,1 +1,1 @@
-- #[[service mesh]] #k8s
+- #[[service mesh]] #K8s
