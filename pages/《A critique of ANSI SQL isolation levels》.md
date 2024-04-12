@@ -1,0 +1,1 @@
+- 关于ANSI SQL关于isolation levels的描述与非锁实现相冲突的反例值得一看，如何更好的描述isolation levels可以直接看 [[hls__Generalized_Isolation_Level_Deﬁnitions_Atul_Adya_1712920119306_0]]
