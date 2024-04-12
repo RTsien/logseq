@@ -1,0 +1,2 @@
+file:: [Generalized_Isolation_Level_Deﬁnitions_Atul_Adya_1712920119306_0.pdf](../assets/Generalized_Isolation_Level_Deﬁnitions_Atul_Adya_1712920119306_0.pdf)
+file-path:: ../assets/Generalized_Isolation_Level_Deﬁnitions_Atul_Adya_1712920119306_0.pdf
