@@ -1,0 +1,7 @@
+- #RED
+- mongodb
+- {{embed ((661cc4d6-935f-42b5-bb73-36ef09863447))}}
+- tendis {{embed ((661cc8e1-3932-4ce1-8ac3-d1605267ec21))}}
+- tdmq
+- {{embed ((661ccbde-e6de-42e5-87cc-56129a55d9dc))}}
+	-
