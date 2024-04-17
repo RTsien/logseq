@@ -13,7 +13,6 @@
 		  id:: 649663d8-2553-40e9-b7be-ac34f45a327e
 		- [[Weekly]] [[Daily]]
 - [[PKM]]
-  collapsed:: true
 	- [[Readwise]] [[Review]]
 	- [[微信读书笔记]]
 	- [pdf note]([[file]]) [[ebook]]
