@@ -1,0 +1,6 @@
+- #RED
+- 压测MOC [src](https://iwiki.woa.com/p/4009199062)
+	- 压测平台mfq：[压测平台](https://mfq.woa.com/project/RedServerPerf/perf-report/reports)，这块有问题可以请教 @evanliang(梁源)
+	- 压测平台测试用例的使用说明：[在MFQ平台运行测试用例的使用说明](https://iwiki.woa.com/p/4007862088)
+	- 压测用例的代码仓库：[red-perf](https://git.woa.com/mf/red-perf)
+- Step By Step [对外一测前压测指导](https://iwiki.woa.com/p/4010316557)

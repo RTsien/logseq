@@ -1,3 +1,4 @@
+- #RED
 - 例子
   ```yaml
   apiVersion: configurator.red.tencent.com/v1alpha1
