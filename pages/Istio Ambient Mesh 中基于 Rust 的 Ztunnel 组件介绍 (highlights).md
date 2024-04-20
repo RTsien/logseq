@@ -16,7 +16,7 @@ summary:: The text introduces Rust-Based Ztunnel for Istio Ambient Mesh, a light
 	  
 	  在 Envoy 因我们的需求而失败后，我们开始考虑构建 ztunnel 的专用实现。我们的假设是，通过从一开始就考虑一个单一的重点用例进行设计，我们可以开发一个比将通用项目塑造成自定义用例更简单、性能更高的解决方案。使 ztunnel 简单化的明确决定是这一假设的关键；例如，类似的逻辑不适用于具有大量支持功能和集成的重写网关。
 	  
-	  这个专门建造的 ztunnel 涉及两个关键领域：
+	  这个专门建造的 [[ztunnel]] 涉及两个关键领域：
 	  
 	  •   ztunnel 与其 Istiod 之间的配置协议
 	  •   ztunnel 的运行时实现 ([View Highlight](https://read.readwise.io/read/01hv1gznrrdvxxachhnhha6n0f))
