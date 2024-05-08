@@ -101,3 +101,4 @@ exclude-from-graph-view:: true
 - On [[Apr 28th, 2024]] at 7:49 PM Readwise synced 2 highlights from 1 book.
 - On [[May 7th, 2024]] at 11:06 AM Readwise synced 1 highlight from 1 book.
 - On [[May 8th, 2024]] at 11:41 AM Readwise synced 24 highlights from 12 books.
+- On [[May 8th, 2024]] at 7:42 PM Readwise synced 6 highlights from 2 books.
