@@ -1,0 +1,3 @@
+- **tc (Traffic Control)**：tc是Linux内核中的一个流量控制工具，可以用来模拟网络延迟、丢包、带宽限制等不稳定网络状况。例如，使用以下命令可以在网卡eth0上添加100ms的延迟
+- 也是一种ebpf程序类型 {{embed ((663ae7dc-873a-413f-b1d9-ddacbb84cdfe))}}
+-
