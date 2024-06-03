@@ -15,7 +15,7 @@
 - [[PKM]]
 	- [[Readwise]] [[Review]]
 	- [[微信读书笔记]]
-	- [pdf note]([[file]]) [[ebook]]
+	- [pdf-note]([[file]]) [[ebook]]
 - [[Work]]
 	- [[学习资料]] [[leetcode]]
 	- [[技术文章拆解]]
