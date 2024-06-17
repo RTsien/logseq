@@ -1,0 +1,3 @@
+- #ebook #LLM
+- from: [AI Box | 大语言模型 (ruc.edu.cn)](http://aibox.ruc.edu.cn/zws/index.htm)
+- ![LLMBook.pdf](../assets/LLMBook_1717417551579_0.pdf)
