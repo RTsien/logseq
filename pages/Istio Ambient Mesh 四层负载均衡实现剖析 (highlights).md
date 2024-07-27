@@ -8,6 +8,7 @@ summary:: This text discusses how Istio Ambient Mesh implements layer 4 load bal
 
 - Highlights first synced by [[Readwise]] [[Apr 10th, 2024]]
 	- [[Istio Ambient]]四层负载均衡 #card
+	  id:: 6617779c-82dd-41bf-be3a-60fd211d5075
 		- 由于Istio Ambient Mesh提供了四层流量安全的能力，Istio Ambient Mesh的设计要求流量从源Pod离开后，首先进入ztunnel Pod，在ztunnel内完成负载均衡、加密（如果启用）后，发往对端Pod所在的节点，再进入ztunnel Pod，并由ztunnel pod将流量解密，再透传至目标Pod。
 		  
 		  跳过K8s service iptables规则

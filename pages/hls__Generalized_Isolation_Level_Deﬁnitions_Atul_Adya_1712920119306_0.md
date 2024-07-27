@@ -109,6 +109,7 @@ file-path:: ../assets/Generalized_Isolation_Level_Deﬁnitions_Atul_Adya_1712920
 	  hl-color:: yellow
 		- ![image.png](../assets/image_1712927538969_0.png)
 		- proscribes 排斥 #英语语料 #card
+		  id:: 661f7d3c-78fb-43f1-991a-fd347ccacf12
 		-
 - We now show that the preventative approach is overly restrictive since it rules out optimistic and multi-version implementations. 
   ls-type:: annotation

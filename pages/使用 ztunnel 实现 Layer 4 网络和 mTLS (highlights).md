@@ -9,6 +9,7 @@ summary:: The text explains how to use ztunnel for Layer 4 networking and mTLS i
 - Highlights first synced by [[Readwise]] [[Apr 10th, 2024]]
 	- ztunnel（Zero Trust Tunnel，零信任隧道）组件是专门为 Istio Ambient 网格构建的基于每个节点的代理。由于工作负载 Pod 不再需要在 Sidecar 中运行代理也可以参与网格，因此 Ambient 模式下的 Istio 也被非正式地称为 “无 Sidecar” 网格。 ([View Highlight](https://read.readwise.io/read/01hv1hg50ee7rsabnnkg91q5w9))
 	- HBONE（HTTP Based Overlay Network Encapsulation，基于 HTTP 的覆盖网络封装）是 Istio 中特定的术语。 它是指通过 [HTTP CONNECT](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/CONNECT)9 方法使用标准 HTTP 隧道来透明地传递应用程序数据包/字节流。 在 Istio 的当前实现中，它通过使用 HTTP CONNECT 方法透明地隧道传输 TCP 数据包， 使用 [HTTP/2](https://httpwg.org/specs/rfc7540.html)10， 并通过[双向 TLS](https://www.cloudflare.com/learning/access-management/what-is-mutual-tls/)11 提供加密和相互身份验证且 HBONE 隧道本身在 TCP 端口 15008 上运行。 来自 IP 层的整体 HBONE 数据包格式如下图所示。
+	  id:: 6617779d-ed4e-479a-a7bf-2859a4c7a025
 	  
 	  [![](https://istio.io/latest/zh/docs/ops/ambient/usage/ztunnel/hbone-packet.png)](https://istio.io/latest/zh/docs/ops/ambient/usage/ztunnel/hbone-packet.png)
 	  
