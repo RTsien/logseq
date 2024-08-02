@@ -37,4 +37,4 @@ summary:: Istio社区Ambient Mesh开源，Sidecar模式 vs Ambient模式。
 	    
 	  3.  接收侧的路由、iptables：将流量拦截到ztunnel的15008端口
 	    
-	  4.  接收ztunnel：virtual_inbound监听器及关联的cluster ([View Highlight](https://read.readwise.io/read/01hv1z6zzfe97x1a31p76drkfe)) #[[#card]]
+	  4.  接收ztunnel：virtual_inbound监听器及关联的cluster ([View Highlight](https://read.readwise.io/read/01hv1z6zzfe97x1a31p76drkfe)) #card
