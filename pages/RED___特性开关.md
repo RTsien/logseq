@@ -1,3 +1,3 @@
-- 特性开关
+- feato
 - [测试换环境](https://feato.test.red.woa.com/console/?env=master&action=)
 - [正式环境](https://feato-prod.red.woa.com/console/?env=prod&action=)
