@@ -57,6 +57,7 @@ summary:: A core Java service using MongoDB faced severe performance issues, inc
 	  
 	  **总结：**linux-2.6系统中，MongoDB只要每秒有几千的反复建链断链，系统sy%负载就会接近100%。Linux-3.10，并发20000反复建链断链的时候，sy%负载可以达到30%，随着客户端并发增加，sy%负载也相应的增加。Linux-3.10版本相比2.6版本针对反复建链断链的场景有很大的性能改善，但是不能解决根本问题。 ([View Highlight](https://read.readwise.io/read/01j774mwc7nndh8cm4f2pjtjdq))
 	- **2.4 客户端反复建链断链引起sy% 100%根因** 
+	  id:: 66df1e7c-7a8a-4c7b-996f-3a0b8bbff992
 	  
 	  为了分析%sy系统负载高的原因，安装perf获取系统top信息，发现所有CPU消耗在如下接口：
 	  
