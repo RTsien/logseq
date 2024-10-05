@@ -1,2 +1,4 @@
+- [Machine Learning for Trading (ml4trading.io)](https://ml4trading.io/outline)
+- [序——我学英语的经验 | 语法俱乐部 (llwslc.github.io)](https://llwslc.github.io/grammar-club/content/Preface.html)
 - 动手学深度学习
 - 统计学习方法 anki
