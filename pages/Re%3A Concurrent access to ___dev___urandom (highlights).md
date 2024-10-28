@@ -9,6 +9,7 @@ summary:: The discussion addresses a bug in the Linux kernel related to concurre
 - Highlights first synced by [[Readwise]] [[Sep 10th, 2024]]
 	- Concurrent access to /dev/urandom ([View Highlight](https://read.readwise.io/read/01j774ba21b5wdtzetz5jee6em))
 	- SMP locking was added before 2.6.0 shipped (between 2.6.0-test7 and  
+	  id:: 66df1e7b-98a6-444e-8b54-5c30bf5c5f76
 	  \-test8). But I see what happened; the problem is that the locking was  
 	  added around add_entropy_words(), and not in the extract_entropy loop.  
 	  Yes, extract_entropy() does call add_entropy_words() (which makes the  
@@ -16,6 +17,7 @@ summary:: The discussion addresses a bug in the Linux kernel related to concurre
 	  extract_entropy() at the same time, the locking turns out not to be  
 	  sufficient. ([View Highlight](https://read.readwise.io/read/01j774b0kt5gc4ba0dejm5d8t1))
 	- This patch solves a problem where simultaneous reads to /dev/urandom  
+	  id:: 66df1e7b-2984-44f8-92b4-2728f734a25e
 	  can cause two processes on different processors to get the same value.  
 	  We're not using a spinlock around the random generation loop because  
 	  this will be a huge hit to preempt latency. So instead we just use a  
