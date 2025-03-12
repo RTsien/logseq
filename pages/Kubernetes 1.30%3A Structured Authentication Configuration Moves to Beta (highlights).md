@@ -22,6 +22,6 @@ Kubernetes v1.30 bui...
 
 - Highlights first synced by [[Readwise]] [[Apr 26th, 2024]]
 	- Today's article is about *authentication*: finding out who's performing a task, and checking that they are who they say they are. Check back in tomorrow to find about what's new in Kubernetes v1.30 around *authorization* ([View Highlight](https://read.readwise.io/read/01hwb1vqpk369kp39714bhgfnp))
-		- 💡: 今天的文章是关于*认证*：找出谁正在执行任务，并检查他们是否是他们所说的那个人。明天再来看看 Kubernetes v1.30 中关于*授权*方面的新内容。 #英语材料
+		- 💡: 今天的文章是关于*认证*：找出谁正在执行任务，并检查他们是否是他们所说的那个人。明天再来看看 Kubernetes v1.30 中关于*授权*方面的新内容。 #英语语料
 	- **Dynamic configuration**: You can change the configuration without restarting the API server. This allows you to add, remove, or modify authenticators without disrupting the API server. ([View Highlight](https://read.readwise.io/read/01hwb2682qw7zdnrb7e3vghsnw))
 		- 💡: #TODO 可以研究一下原理
