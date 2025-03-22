@@ -6,7 +6,7 @@ url:: https://learn.lianglianglee.com/%e4%b8%93%e6%a0%8f/%e7%a8%8b%e5%ba%8f%e5%9
 ![](https://readwise-assets.s3.amazonaws.com/static/images/article4.6bc1851654a0.png)
 
 - Highlights first synced by [[Readwise]] [[Nov 26th, 2023]]
-	- 图中还有一个指标叫“夏普率”，它是通过年化收益减去无风险收益率（本文简单设为2.5%）后，再除以年化波动得来的，描述了承担单位波动能够换取的超额收益，专业投资者一般用它来直接衡量一个投资标的的好坏。 ([View Highlight](https://read.readwise.io/read/01hg0yms1d131qs9v861pyjgc7))
+	- 图中还有一个指标叫“[[夏普率]]”，它是通过年化收益减去无风险收益率（本文简单设为2.5%）后，再除以年化波动得来的，描述了承担单位波动能够换取的超额收益，专业投资者一般用它来直接衡量一个投资标的的好坏。 ([View Highlight](https://read.readwise.io/read/01hg0yms1d131qs9v861pyjgc7))
 	- 险平价组合是由波士顿磐安资产管理公司的钱恩平博士提出的，这个组合的设计思路，是让每类资产对组合整体风险的影响大致相等。
 	  
 	  拿上面讲到的40/60股债组合来说，股票资产对这个组合整体风险的影响远远大于债券，这就让这个组合的风险跟股票过于强相关了，不利于通过分散风险来增强整个组合的稳定性。要避免这个问题，就要调整资产配比，让股票和债券对股债组合的风险贡献一致。这就是风险平价组合的基本思想。
