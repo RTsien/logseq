@@ -33,7 +33,7 @@ gRPC 模式：无代理，L4 和 L7 功能作为应用程序的一部分，比�
 
 - Highlights first synced by [[Readwise]] [[Sep 23rd, 2024]]
 	- •   **Sidecar 模式**：代理与应用程序容器位于同一个 Pod 中
-	  id:: 67d7a09a-bcf1-4dc6-ac25-8edf92b86af2
+	  id:: 67df0c93-1f95-49a0-8563-d221be8bac2e
 	  •   **Ambient 模式**：L4 代理与应用程序容器位于同一个节点上，L7 代理不一定跟应用程序容器在同一个节点上
 	  •   **Cilium 模式**：L4 和 L7 代理作为一个整体与应用程序容器在同一个节点上
 	  •   **gRPC 模式**：gRPC 框架集成到应用程序中，共同部署在一个容器中 ([View Highlight](https://read.readwise.io/read/01j8csqymj1d42wd57fahkvw4b)) #[[card]]

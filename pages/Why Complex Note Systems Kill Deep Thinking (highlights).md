@@ -8,4 +8,4 @@ summary:: Greg Wheeler reflects on how onion powder, which contains only onion, 
 
 - Highlights first synced by [[Readwise]] [[Mar 17th, 2025]]
 	- why does onion powder last for years while a fresh onion goes bad in weeks? The answer is simple: **it’s been stripped down to the essentials.** No moisture. No excess. Just what matters. ([View Highlight](https://read.readwise.io/read/01jph4fdep6zt166x8h1xzhhee)) #[[card]]
-	  id:: f1119044-8821-4ea8-a598-6ffa328d86b8
+	  id:: 67df0c8e-9fbf-480d-8044-cfafd213ca78

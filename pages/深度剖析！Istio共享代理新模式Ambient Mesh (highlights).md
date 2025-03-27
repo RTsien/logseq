@@ -24,7 +24,7 @@ summary:: Istio社区Ambient Mesh开源，Sidecar模式 vs Ambient模式。
 	- sleep访问productpage的流量被同节点的tunnel以TPROXY（透明代理）方式拦截转发到ztunnel(监听127.0.0.1:15001)，使用TPROXY的好处是保留原始的目的地址，ztunnel做转发时必须依赖原始目的地址。 ([View Highlight](https://read.readwise.io/read/01hv1z40185bpkh6njcj4dcmzz))
 		- 💡: 关键点：使用tproxy可以保留原始的目的地址
 	- **Ambient Mesh四层流量治理小结**
-	  id:: 67d7a09a-8e3c-4db8-9593-d4ba89814f3c
+	  id:: 67df0c93-baee-4761-bff6-0103c2892afa
 	  
 	  ![图片](https://mmbiz.qpic.cn/mmbiz_png/ia1Z7HH4plnAlstIxcrhX8sAlGAx2AAceCgxO2cKbgVcZmA227Ids05NibEmBtlwiauWltP1fhzKeibY1tXbZrXX2g/640?wx_fmt=png&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
 	  
