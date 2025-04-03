@@ -1,2 +1,2 @@
 - [[艾宾浩斯]] [[记忆遗忘曲线]] [[脑科学]]
-- 利用好同步插件[[anki connect]]，结合[[logseq]]+[[Logseq Anki Sync]]，效率无敌
+- 利用好同步插件[[anki connect]]，结合[[logseq]]+[[logseq-anki-sync]]，效率无敌
