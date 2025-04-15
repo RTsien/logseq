@@ -8,6 +8,7 @@ summary:: The author shares a useful tip for managing complex monorepo projects 
 
 - Highlights first synced by [[Readwise]] [[Apr 11th, 2025]]
 	- 针对中大型项目，在项目架构稳定之后，针对自己项目的结构，让 Cursor 生成一个包含项目架构图的 cursor rule，它解释了整个项目的架构，然后在后面添加各种 feature 的时候都可以带着这个 rule，会大大节省和解放时间，让它更了解你的复杂项目，提升 AI 的准确率，是一个我认为到现在为止非常实用的技巧，没有这个 rule 的情况下， 如果没有添加足够上下文的话，AI 经常会胡乱添加很多没用的文件。
+	  id:: 0fbeab5f-c28e-4cf0-8b8d-d89fb4a11691
 	  
 	  今天发现另外一个英文推也用了这个rule，看来是一个非常常用的技巧。  
 	  
