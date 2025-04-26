@@ -8,3 +8,6 @@ summary:: Andrej Karpathy shares essential digital hygiene tips to enhance onlin
 
 - Highlights first synced by [[Readwise]] [[Mar 25th, 2025]]
 	- ![](https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/something-is-rotten-in-the-sta/cover_image.jpg) ([View Highlight](https://read.readwise.io/read/01jq51g5rjw8s3h6tcc0xgaxcq))
+- New highlights added [[Apr 11th, 2025]] at 5:05 PM
+	- trippy ([View Highlight](https://read.readwise.io/read/01jqpbkzw1m1ereaqaez2s1yf4))
+		- 💡: trippy (adjective): mind-bending; surreal or psychedelic in nature 🌌🌀
