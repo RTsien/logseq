@@ -7,7 +7,8 @@ summary:: Agent Development Kit 中文文档 / Agent 开发框架 / 构建强大
 ![](https://adk.wiki/assets/agent-development-kit.png)
 
 - Highlights first synced by [[Readwise]] [[Apr 27th, 2025]]
-	- **有效指令的技巧：**
+	- **有效指令的技巧：** #LLM/Prompt 
+	  id:: a6d3a93c-f10d-496d-8fbb-a1e8a7652933
 	  
 	  •   **清晰明确：** 避免含糊不清。清楚地说明期望的行动和结果。
 	  •   **使用 Markdown：** 使用标题、列表等提高复杂指令的可读性。
