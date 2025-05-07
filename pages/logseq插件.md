@@ -1,8 +1,8 @@
 - 当前使用（🌟代表使用对于提率的贡献度）：
-	- logseq-woz-theme 🌟🌟🌟🌟🌟
+	- ~~logseq-woz-theme 🌟🌟🌟🌟🌟~~
 	- logseq-bullet-threading 🌟🌟🌟🌟🌟
 	- logseq-anki-sync 🌟🌟🌟🌟🌟
 	- logseq-readwise-official-plugin 🌟🌟🌟🌟
 	- logseq-heatmap 🌟🌟🌟
-	- logseq-awesome-links 🌟🌟🌟
-	- logseq-tabs🌟🌟🌟
+	- ~~logseq-awesome-links 🌟🌟🌟~~
+	- ~~logseq-tabs🌟🌟🌟~~
