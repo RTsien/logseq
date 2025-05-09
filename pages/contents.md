@@ -17,6 +17,7 @@
 	- [[Readwise]] [[Review]]
 	- [[微信读书笔记]]
 	- [pdf-note]([[file]]) [[ebook]]
+	- monica[备忘](https://monica.im/home/memo/)和[pdf](https://monica.im/webapp/doc-chat)
 - [[Work]]
 	- [[学习资料]] [[leetcode]]
 	- [[技术文章拆解]]
