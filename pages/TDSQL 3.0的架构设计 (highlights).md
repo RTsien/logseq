@@ -77,3 +77,39 @@ summary:: TDSQL 3.0 is designed to improve upon its predecessor by addressing is
 	  2、 数据强一致；
 	  
 	  3、 业务无需多次写入或多个节点查询。 ([View Highlight](https://read.readwise.io/read/01jv40krrv9nw0z5kr6fegc618))
+- New highlights added [[May 17th, 2025]] at 5:11 PM
+	- **Shared-Nothing**
+	  
+	  代表产品有Google Spanner、蚂蚁金服OceanBase、PingCAP的TiDB等，但是各自架构又有一些差异。
+	  
+	  ①：架构优势：多写多读，横向扩展性友好（尤其是业务具备一定水平拆分能力的场景）。
+	  
+	  ②：架构劣势：跨节点分布式事务、数据远程网络访问等带来单核性能和延迟问题。 ([View Highlight](https://read.readwise.io/read/01jveqm6pkh1b0xq5qa9damz7x))
+	- **TDSQL 3.0：**
+	  
+	  ![](https://iwiki.woa.com/tencent/api/attachments/s3/url?attachmentid=19278854)
+	  
+	  在3.0的架构设计中，我们既要让计算离存储（缓存/存储）尽可能的近，也要能做到计算与存储分离实现高弹性，因此我们设计为：
+	  
+	  ①：采用对等架构设计，每个节点（进程）均包含有完整的计算、存储、日志三个功能引擎。
+	  
+	  ②：在实际部署中，通过元数据及调度模块，根据不同业务场景的需要，对节点功能进行划分，例如支持全功能节点（计算存储日志三个服务都提供），计算节点（仅支持计算，所有数据通过Remote访问），存储节点（仅支持数据存储），日志服务（仅提供日志订阅服务）等。
+	  
+	  ③：计算层与本地存储采用本地访问模式，访问远端存储则采用网络RPC访问模式，尽可能的确保访问本地数据的性能。 ([View Highlight](https://read.readwise.io/read/01jveqpct6dn9kvg0wx7g6hbr9))
+	- **同类产品分析**
+	  
+	  vs OceanBase：OB目前同样采用对等架构进程设计，但是暂不支持存算分离（即节点仅支持计算或存储，从设计上分析应该是可实现的，只不过工作量大小问题）。
+	  
+	  vs TiDB：TiDB目前计算与存储过于分离，带来性能问题；此外TiDB和TiKV使用两种不同语言开发，大量计算和存储都需要使用的功能均需要重复实现，例如时间戳、MC通信、DD Cache、并行、算子下推等。 ([View Highlight](https://read.readwise.io/read/01jveqrvsesgrgggs535g0837f))
+		- 💡: tdsql3也属于sharenothing，部署节点在存算分离方面可以在彻底分离和完全存算一体直接组合
+	- **架构调度**
+	  
+	  3.0从架构层面提供多维度的调度，提供高度的灵活性，以满足不同业务场景下的，高可用、稳定性、性能与成本之间的最佳平衡：
+	  
+	  例如对节点类型的调度，可以实现存算一体引擎，也可以实现存算分离：
+	  
+	  **存算一体**：计算与存储绑定在节点内，计算节点访问本地存储，通常来说计算需求与存储需求较为匹配，且对访问延迟有较高要求的适合；
+	  
+	  **存算分离**：通常存储量与计算量严重不匹配，例如存储量特别大，但是计算量很小的情况，比较适合。
+	  
+	  又例如对调度机制的调度，可以实现单机模式、预规划模式、自适应模式，而且多种模式可以无缝切换，实现真正的单机分布式一体化 ([View Highlight](https://read.readwise.io/read/01jveqzfgnmvwj46qay77x73cy))

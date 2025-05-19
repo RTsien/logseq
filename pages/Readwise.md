@@ -141,3 +141,9 @@ exclude-from-graph-view:: true
 - On [[May 13th, 2025]] at 8:12 PM Readwise synced 5 highlights from 2 books.
 - On [[May 14th, 2025]] at 1:13 PM Readwise synced 1 highlight from 1 book.
 - On [[May 15th, 2025]] at 1:12 AM Readwise synced 4 highlights from 2 books.
+- On [[May 17th, 2025]] at 3:12 PM Readwise synced 1 highlight from 1 book.
+- On [[May 17th, 2025]] at 5:11 PM Readwise synced 5 highlights from 2 books.
+- On [[May 17th, 2025]] at 6:13 PM Readwise synced 4 highlights from 1 book.
+- On [[May 17th, 2025]] at 7:13 PM Readwise synced 1 highlight from 1 book.
+- On [[May 17th, 2025]] at 9:13 PM Readwise synced 1 highlight from 1 book.
+- On [[May 19th, 2025]] at 11:13 AM Readwise synced 2 highlights from 1 book.

@@ -50,7 +50,7 @@
 
  ;; Automatically expand block references when zooming in.
  ;; Default value: true
- :ui/auto-expand-block-refs? false
+ :ui/auto-expand-block-refs? true
 
  ;; Enable Block timestamps.
  ;; Default value: false
@@ -420,4 +420,4 @@
  :editor/logical-outdenting? false
  :editor/preferred-pasting-file? true
  :feature/enable-whiteboards? false
- :feature/enable-flashcards? true}
+ :feature/enable-flashcards? false}
