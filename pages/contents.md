@@ -1,9 +1,7 @@
 - [[原则]]
-  collapsed:: true
 	- [[每日惯例]] [[GTD原则]]
 	- [[生活原则]] [[工作原则]]
 - [[GTD]]
-  collapsed:: true
 	- [[个人角色 20 years]]
 	- [[愿景 3 years]]
 	- [[routine half year]]
