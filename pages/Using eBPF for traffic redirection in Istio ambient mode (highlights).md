@@ -32,3 +32,9 @@ summary:: In Istio's ambient mode, eBPF is now supported for traffic redirection
 	  [![Latency (ms) for QPS 8000 with varying number of connections](https://istio.io/latest/blog/2023/ambient-ebpf-redirection/P75-Latency-with-8000-qps.png)](https://istio.io/latest/blog/2023/ambient-ebpf-redirection/P75-Latency-with-8000-qps.png)
 	  
 	  P75 Latency (ms) for QPS 8000 with varying number of connections ([View Highlight](https://read.readwise.io/read/01hv1rxbe2yng7qbkw03e2xvjn))
+- New highlights added [[Jun 11th, 2025]] at 2:36 AM
+	- Why eBPF
+	  
+	  Although performance considerations are essential in the implementation of Istio ambient mode redirection, it’s also important to consider ease of programmability, to enable the implementation of versatile and customized requirements. With eBPF, you can leverage additional context in the kernel to bypass complex routing and simply send packets to their final destination.
+	  
+	  Furthermore, eBPF enables deeper visibility and additional context for packets in the kernel, allowing for more efficient and flexible management of data flow compared with iptables. ([View Highlight](https://read.readwise.io/read/01jxda2wbkfmx8gm5dvtzypaf2))
