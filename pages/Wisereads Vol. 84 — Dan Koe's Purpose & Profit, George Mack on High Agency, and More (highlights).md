@@ -1,0 +1,13 @@
+title:: Wisereads Vol. 84 — Dan Koe's Purpose & Profit, George Mack on High Agency, and More (highlights)
+author:: [[hello@readwise.io (Readwise)]]
+full-title:: "Wisereads Vol. 84 — Dan Koe's Purpose & Profit, George Mack on High Agency, and More"
+category:: #articles
+url:: https://wise.readwise.io/issues/wisereads-vol-84/
+summary:: This week, Readwise shared Dan Koe's free essay collection, Purpose & Profit, which explores how to find meaning in work. George Mack wrote about high agency, emphasizing the importance of taking action and clear thinking. Other highlights include discussions on AI efficiency and emotional intelligence insights from Joe Hudson.
+![](https://readwise-assets.s3.amazonaws.com/static/images/wisereads/base/owl.24130856a41e.jpg)
+
+- Highlights first synced by [[Readwise]] [[Apr 11th, 2025]]
+	- thinking, disagreeability, and a bias toward action: high agency. "Optimism states the glass is half full. Pessimism states the glass is half empty. High agency states you’re a tap. You look in the mirror and see a giant tap staring back at you." ([View Highlight](https://read.readwise.io/read/01jqpc9ym4sg02pmysx8zw6k60))
+		- 💡: Thinking for yourself, being open to different opinions, and being ready to take action: that's what we call "high agency." When someone is optimistic, they see the good side of things, like saying the glass has some water in it. When someone is pessimistic, they focus on the bad side, like saying the glass is not full. But when you have high agency, you see yourself as the one who can make things happen. Instead of just looking at the glass, you see yourself as the faucet that can fill it up.
+	- Father, husband, and coach to leaders at OpenAI, Google, and beyond, Joe Hudson shares sharp insights on emotional intelligence, including: "Constantly trying to make sense of your emotions prevents you from hearing their wisdom," and "There is no way of getting it perfect. There is no complete, no finish line, no done. There is simply 'What’s the next experiment?' There is only play." ([View Highlight](https://read.readwise.io/read/01jqpctbat4fmpzzms561aywv3)) #[[英语语料]]
+	- "Something I've observed repeatedly: the people who end up with influence aren't necessarily the most brilliant or even the most articulate. In fact, people tend to dislike the person who swoops in with the 'well, actually' perspective that makes everyone else feel diminished. The ones who gain real influence are those who build on others’ ideas, ask clarifying questions that untangle confusion, or synthesize disparate viewpoints into a clearer path forward." ([View Highlight](https://read.readwise.io/read/01jqpd5rddvqqwk7bd7stxxfda)) #[[英语语料]]

@@ -17,6 +17,8 @@
 	- [[Readwise]] [[Review]]
 	- [[微信读书笔记]]
 	- [pdf-note]([[file]]) [[ebook]]
+	- monica[备忘](https://monica.im/home/memo/)和[pdf](https://monica.im/webapp/doc-chat)
+	- apple notes
 - [[Work]]
 	- [[学习资料]] [[leetcode]]
 	- [[技术文章拆解]]
@@ -27,11 +29,6 @@
 	- [[机器学习]] [[LLM]] [[推荐系统]]
 	- [[开源项目]]
 	- [[软实力]]
-- [[写作]]，以教代学
-	- [[斯多葛]]
-	- [[多巴胺]] [[培养习惯]]
-	- [[HubermanLab]]  [[NSDR]]
-	- [[学习方法]] -> [[外语学习]] -> [[英语语料]]
-	- [[国富论]]
+- [[写作]]
 - [[项目足迹]]
 - [[常用工具]]
