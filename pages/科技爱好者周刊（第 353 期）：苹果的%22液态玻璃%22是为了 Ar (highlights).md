@@ -10,7 +10,7 @@ summary:: 这里记录每周值得分享的科技内容，周五发布。...
 	- ![](https://cdn.beekka.com/blogimg/asset/202506/bg2025061901.webp) ([View Highlight](https://read.readwise.io/read/01jyh7wq02b87dr5rzn4tdxwnv))
 	- 一项研究发现，[手写](https://www.scientificamerican.com/article/why-writing-by-hand-is-better-for-memory-and-learning/)能增加大脑活动和参与度，比键盘打字更有利于记忆和学习。因此，学习重要的内容，可以尝试手写。 ([View Highlight](https://read.readwise.io/read/01jyh80n5sp0s21wcf7pmhre4g))
 		- 💡: 手写有助于记忆
-	- 1、[胶水工作重要吗？](https://www.seangoedecke.com/glue-work-considered-harmful/)
+	- 1、[胶水工作重要吗？](https://www.seangoedecke.com/glue-work-considered-harmful/) #card 
 	  
 	  "胶水工作"（glue work）指的是，帮助做出产品、提高效率的一些辅助工作。
 	  
