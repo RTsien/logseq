@@ -15,7 +15,7 @@
 		- [[Weekly]] [[Daily]]
 - [[PKM]]
 	- [[Readwise]] [[Review]]
-	- [[微信读书笔记]]
+	- [[微信读书笔记]] -> ima
 	- [pdf-note]([[file]]) [[ebook]]
 	- monica[备忘](https://monica.im/home/memo/)和[pdf](https://monica.im/webapp/doc-chat)
 	- apple notes
