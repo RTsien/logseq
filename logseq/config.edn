@@ -419,5 +419,5 @@
  :ui/show-brackets? true
  :editor/logical-outdenting? false
  :editor/preferred-pasting-file? true
- :feature/enable-whiteboards? false
+ :feature/enable-whiteboards? true
  :feature/enable-flashcards? false}
