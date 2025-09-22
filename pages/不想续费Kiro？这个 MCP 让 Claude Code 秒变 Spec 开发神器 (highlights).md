@@ -10,3 +10,10 @@ summary:: 我发现了Claude Code的Spec Workflow MCP，能在Claude Code里实�
 
 - Highlights first synced by [[Readwise]] [[Sep 16th, 2025]]
 	- claude mcp add spec-workflow -- npx @pimzino/spec-workflow-mcp@latest /path/to/your/project --AutoStartDashboard ([View Highlight](https://read.readwise.io/read/01k58bw0mgt3dbcemwvbmwry3y))
+- New highlights added [[Sep 22nd, 2025]] at 12:29 PM
+	- 加了`--AutoStartDashboard`参数，启动Claude Code后，浏览器会自动打开下面的Dashboard页面 ([View Highlight](https://read.readwise.io/read/01k5995f6z4gbhpfhtdrmqt47r))
+	- 第一次使用：直接开口要Spec
+	  
+	  我就直接跟Claude Code说了一句：
+	  
+	  > 为我创建一个五子棋游戏的Spec ([View Highlight](https://read.readwise.io/read/01k5995xpvwy3cgg3m0tyfx3ph))
