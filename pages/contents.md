@@ -34,7 +34,7 @@
 	- [[开源项目]]
 	- [[软实力]]
 - [[写作]]
-	- [blog]([[blog.mindxwalk.com]]) [wiki]([[richie.wiki]])
+	- [blog]([[blog]]) [wiki]([[richie.wiki]])
 - [[阅读]]
 - [[项目足迹]]
 - [[常用工具]]

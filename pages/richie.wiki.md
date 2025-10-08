@@ -3,3 +3,4 @@
   query-properties:: [:page]
   query-sort-by:: page
   query-sort-desc:: true
+- #wiki
