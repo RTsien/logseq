@@ -185,7 +185,8 @@ exclude-from-graph-view:: true
 	- 4)减少函数调用开销
 	- 5)减少分支
 	- 6)Strength reduction
-- 投资配比 [www.youtube.com](https://www.youtube.com/watch?v=YdXG2oMhns0) #投资方法
+- 投资配比 [一口新飯](https://www.youtube.com/watch?v=YdXG2oMhns0) #投资方法
+  id:: 67ab6860-0b49-4a2c-92c6-afca0f83779f
 	- 25% 指数基金 500w
 	- 15% 公司个股 300w
 	- 50% 房地产 1000w
