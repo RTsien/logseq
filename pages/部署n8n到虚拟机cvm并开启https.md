@@ -23,6 +23,10 @@ blog:: true
   # 关闭
   sudo docker-compose stop
   
+  # 如果改动了docker-compose.yml，记得先rm再启动
+  # rm不会导致数据丢失
+  sudo docker-compose rm && sudo docker-compose up -d
+  
   # 启动之后可以通过 http://yourip:5678 访问了
   # 如果无法访问，先检查腾讯云上的CVM网络完全组是否放开5678端口，顺便记得把443端口也打开
   ```
