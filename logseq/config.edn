@@ -420,4 +420,5 @@
  :editor/logical-outdenting? false
  :editor/preferred-pasting-file? true
  :feature/enable-whiteboards? true
- :feature/enable-flashcards? false}
+ :feature/enable-flashcards? false
+ :publishing/all-pages-public? false}
