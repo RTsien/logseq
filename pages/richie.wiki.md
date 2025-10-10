@@ -1,2 +1,3 @@
 - #wiki
--
+- https://richie.wiki
+- 作为个人知识库和名片
