@@ -1,4 +1,6 @@
-wiki:: work
+wiki:: self
+updated:: [[2025-10-16]]
+created:: [[2025-10-16]]
 
 - 长状态(>>month): zonesvr/guildsvr
 - 中状态(day/week): warsvr

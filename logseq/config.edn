@@ -421,4 +421,5 @@
  :editor/preferred-pasting-file? true
  :feature/enable-whiteboards? true
  :feature/enable-flashcards? false
- :publishing/all-pages-public? false}
+ :publishing/all-pages-public? false
+ :journal/page-title-format "yyyy-MM-dd"}

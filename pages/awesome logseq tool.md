@@ -1,4 +1,6 @@
-wiki::
+wiki:: 
+updated:: [[2025-10-16]]
+created:: [[2025-10-16]]
 
 - cli 都是基于[nbb-logseq](https://github.com/logseq/nbb-logseq)
 	- [logseq-to-markdown](https://github.com/dom8509/logseq-to-markdown) 导出成`(Hugo)`markdown
@@ -10,3 +12,4 @@ wiki::
 	  id:: 68e8ca1d-b3ce-4019-8a57-22ddcb36f1ec
 		- https://github.com/logseq/logseq/blob/master/deps/publishing/src/logseq/publishing/db.cljs 是实际导出的时候判断property public=true的地方。如果想改成wiki=true就要打补丁。
 -
+- #logseq

@@ -1,6 +1,6 @@
 wiki::
-updated:: [[Oct 16th, 2025]]
-created:: [[Oct 13th, 2025]]
+updated:: [[2025-10-16]]
+created:: [[2025-10-16]]
 
 - 以[[SmartMoneyTracker]]的开发过程为例
   id:: 68eca069-a166-4ccc-a291-90d5eb3d75d8

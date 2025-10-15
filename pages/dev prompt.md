@@ -1,4 +1,6 @@
 wiki::
+updated:: [[2025-10-16]]
+created:: [[2025-10-16]]
 
 - #LLM/VibeCoding #ClaudeCode
 - 开发项防遗漏
