@@ -39,7 +39,7 @@ summary:: The text discusses the server architecture design of the mobile game "
 	  游戏中对zk的相关api调用封装在了zkagent中，需要容灾的服务会定时的通过zkagent上报自己的状态到zookeeper中，zkagent同样会定时的从zookeeper中拉取存活服务的最新状态列表，如果发现和本地的配置不一致则更新对应的配置并重启对应的服务。
 	  
 	  例如，zonesvr需要对router进行容灾，所有router会定时通过zkagent向zookeeper上报自己的状态，zonesvr的zkagent会定时的拉取所有router的状态，如果发现router集群的数量有发生变更，就用最新的所有router地址覆盖zonesvr本地的router配置，然后从新load zonesvr的路由配置。 ([View Highlight](https://read.readwise.io/read/01ht25jahjeft26a5y9bgqbddh))
-		- 💡: red如何进行服务容灾的？ #TODO
+		- 💡: [[red如何进行服务容灾]]]？
 	- 路由不一致问题
 	  
 	  对于现有的架构，虽然通过zookeeper对无状态的服务进行了容灾，但是其实是有问题的，可能会存在路由不一致性的问题。例如zonesvr对router进行了容灾，当某台router挂掉之后，zookeeper更新了最新的router集群的状态。但是某个zonesvr可能此时到zookeeper的网络出现问题，无法拉取到router集群的最新状态，此时**这个zonesvr和其他zonesvr所看到的router列表就是不一致的**。  

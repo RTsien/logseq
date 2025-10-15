@@ -1,6 +1,7 @@
 exclude-from-graph-view:: true
 
-- [[Zettelkasten本质上是一种渐进式总结方法]] [ref](https://blog.jimmylv.info/2020-06-03-zettelkasten-in-action/) #卡片盒笔记 #学习技巧
+- Zettelkasten本质上是一种渐进式总结方法 [ref](https://blog.jimmylv.info/2020-06-03-zettelkasten-in-action/) #卡片盒笔记 #学习技巧
+  id:: 68c44bea-b76f-4e26-8436-23b4bc15bf83
 	- Literature Notes 是 a) 简短地 b) 用自己的话（而非“复制粘贴”）记录你在看的文献笔记，迫使你真正理解原文的意思。
 	- Reference Notes 则需要你添加参考信息，将上面的 Literature Notes 跟原文联系起来。而这一步，恰恰是 Roam 或 Obsidian 工具发挥价值最大的地方，甚至做到了完全自动化。（稍后会进一步解释我的工作流。
 	- Permanent Notes 是最重要的一步，回顾每一个卡片笔记，同时思考它们与你所学的内容、你的兴趣、思考或研究的关系。你的目标不是收集尽可能多的笔记，而是为你现有的想法、论点和讨论增加新的价值。

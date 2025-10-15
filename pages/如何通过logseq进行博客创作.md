@@ -7,7 +7,7 @@ blog:: true
 		- 与[[如何通过logseq创建个人公开知识库]]不同，我们使用logseq-to-markdown生成markdown文件，后续建站交给别的工具
 		  {{embed ((68e87b81-d704-4c68-84b9-050b56f64abf))}}
 	- 建站工具
-		- hugo
+		- [[hugo]]
 			- front matter的处理
 			- 文章内容到标准markdown的转换 optional
 		- notion
