@@ -1,3 +1,3 @@
 - {{query (or [[TODO]] [[❓]] [[❗]])}}
-  query-table:: true
-  query-properties:: [:block :page]
+  query-table:: false
+  query-properties:: [:block]

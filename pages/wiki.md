@@ -10,4 +10,3 @@ created:: [[2025-10-16]]
   query-properties:: [:page :wiki :updated :created]
   query-sort-by:: created
   query-sort-desc:: true
--
