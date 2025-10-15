@@ -1,3 +1,6 @@
+updated:: [[2025-10-16]]
+created:: [[2025-10-16]]
+
 title:: Use Singular Nouns for Database Table Names (highlights)
 author:: [[teamten.com]]
 full-title:: "Use Singular Nouns for Database Table Names"
@@ -8,6 +11,7 @@ summary:: There is a debate about whether database table names should be singula
 
 - Highlights first synced by [[Readwise]] [[Sep 15th, 2025]]
 	- The arguments for plural are straightforward:
+	  id:: 68efd741-9e8a-44ed-baf8-1bf6d5d69e80
 	  
 	  1.  The table is storing more than one user.
 	    
