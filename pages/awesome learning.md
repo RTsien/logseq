@@ -1,4 +1,4 @@
-wiki:: true
+wiki::
 
 - ## Awesome Learning - awesome.qlearn.fun
 - ### 音乐学习

@@ -1,4 +1,4 @@
-wiki:: true
+wiki::
 
 - #LLM/VibeCoding #ClaudeCode
 - 开发项防遗漏

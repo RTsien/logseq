@@ -1,5 +1,4 @@
-wiki:: true
-hide:: true
+wiki:: work
 
 - 长状态(>>month): zonesvr/guildsvr
 - 中状态(day/week): warsvr

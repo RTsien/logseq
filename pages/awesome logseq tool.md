@@ -1,4 +1,4 @@
-wiki:: true
+wiki::
 
 - cli 都是基于[nbb-logseq](https://github.com/logseq/nbb-logseq)
 	- [logseq-to-markdown](https://github.com/dom8509/logseq-to-markdown) 导出成`(Hugo)`markdown
