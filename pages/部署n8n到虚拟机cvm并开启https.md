@@ -1,4 +1,7 @@
 blog:: true
+updated:: [[2025-10-20]]
+created:: [[2025-10-16]]
+status:: [[DONE]]
 
 - > CVM厂商：腾讯云
   > 域名解析：腾讯云DNSPOD
