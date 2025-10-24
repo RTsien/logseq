@@ -8,6 +8,7 @@ created:: [[2025-10-16]]
 -
 - 改造property过滤规则: https://github.com/RTsien/logseq-mod/tree/wiki-0.10.14
 - 改造pubish-spa使用logseq-mod: https://github.com/RTsien/publish-spa/tree/wiki-0.3.1
+-
 - logseq graph仓库添加`.github/workflows/publish.yml`
   ```yml
   on: [push]
