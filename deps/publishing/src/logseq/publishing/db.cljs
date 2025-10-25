@@ -31,7 +31,9 @@
           :where
           [?p :block/name]
           [?p :block/properties ?properties]
-          [(get ?properties :wiki) ?wiki]]
+          [(get ?properties :wiki) ?wiki]
+          [(not= ?wiki "self")]
+          [(not= ?wiki "qlearn.fun")]]
         db)
        (map first)))
 
