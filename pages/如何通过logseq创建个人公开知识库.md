@@ -10,9 +10,6 @@ created:: [[2025-10-16]]
 	- git clone 到跟graph同级目录
 - 改造pubish-spa使用logseq-mod: https://github.com/RTsien/publish-spa/tree/wiki-0.3.1
 	- 具体操作参考pubish-spa readme
--
--
--
 - 直接粘贴gh-page分支链接给vercel就行了
 -
 - logseq graph仓库添加`.github/workflows/publish.yml`
