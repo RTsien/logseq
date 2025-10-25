@@ -31,8 +31,8 @@
           :where
           [?p :block/name]
           [?p :block/properties ?properties]
-          [(get ?properties :public) ?pub]
-          [(= true ?pub)]]
+          [(get ?properties :wiki) ?wiki]
+          [(not= "self" ?wiki)]]
         db)
        (map first)))
 
@@ -43,8 +43,10 @@
           :where
           [?p :block/name]
           [?p :block/properties ?properties]
-          [(get ?properties :public) ?pub]
-          [(= false ?pub)]]
+          (or-join [?properties]
+            (and [(get ?properties :wiki) ?wiki]
+                 [(= "self" ?wiki)])
+            [(missing? $ ?properties :wiki)])]
         db)
        (map first)))
 
@@ -55,8 +57,10 @@
           :where
           [?p :block/name]
           [?p :block/properties ?properties]
-          [(get ?properties :public) ?pub]
-          [(= false ?pub)]
+          (or-join [?properties]
+            (and [(get ?properties :wiki) ?wiki]
+                 [(= "self" ?wiki)])
+            [(missing? $ ?properties :wiki)])
           [?b :block/page ?p]]
         db)
        (map first)))
