@@ -31,8 +31,7 @@
           :where
           [?p :block/name]
           [?p :block/properties ?properties]
-          [(get ?properties :wiki) ?wiki]
-          [(not= "self" ?wiki)]]
+          [(get ?properties :wiki) ?wiki]]
         db)
        (map first)))
 
@@ -43,10 +42,7 @@
           :where
           [?p :block/name]
           [?p :block/properties ?properties]
-          (or-join [?properties]
-            (and [(get ?properties :wiki) ?wiki]
-                 [(= "self" ?wiki)])
-            [(missing? $ ?properties :wiki)])]
+          [(missing? $ ?properties :wiki)]]
         db)
        (map first)))
 
@@ -57,10 +53,7 @@
           :where
           [?p :block/name]
           [?p :block/properties ?properties]
-          (or-join [?properties]
-            (and [(get ?properties :wiki) ?wiki]
-                 [(= "self" ?wiki)])
-            [(missing? $ ?properties :wiki)])
+          [(missing? $ ?properties :wiki)]
           [?b :block/page ?p]]
         db)
        (map first)))
@@ -113,7 +106,7 @@
        set))
 
 (defn clean-export!
-  "Prepares a database assuming all pages are public unless a page has a 'public:: false'"
+  "Prepares a database assuming all pages are public unless a page has no wiki property"
   [db]
   (let [remove? #(contains? #{"recent" "file"} %)
         non-public-pages (get-public-false-pages db)
@@ -130,7 +123,7 @@
     [@(d/conn-from-datoms datoms db-schema/schema) assets]))
 
 (defn filter-only-public-pages-and-blocks
-  "Prepares a database assuming all pages are private unless a page has a 'public:: true'"
+  "Prepares a database assuming all pages are private unless a page has a wiki property"
   [db]
   (when-let [public-pages* (seq (get-public-pages db))]
     (let [public-pages (set/union (set public-pages*)
